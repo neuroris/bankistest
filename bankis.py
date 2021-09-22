@@ -14,3 +14,29 @@ class Bankis(BankisBase):
         account3 = self.dynamicCall('GetAccount(2)')
         print(account_count)
         print(account1, account2, account3)
+
+        result = self.dynamicCall('IsVTS()')
+        print(result)
+
+        self.ReceiveData.connect(self.receive_data)
+        self.ReceiveRealData.connect(self.receive_real_data)
+
+        self.dynamicCall('SetSingleData(0, "005930")')
+        # self.dynamicCall('SetSingleData(0, 005930)')
+
+        self.dynamicCall('RequestData("SCPD")')
+
+        field_count = self.dynamicCall('GetSingleFieldCount()')
+        print('single field count:', field_count)
+
+    def receive_data(self):
+        print('Data received')
+        data = self.dynamicCall('GetSingleData(0, 0)')
+        print('Data:', data)
+
+    def receive_real_data(self):
+        print('Real data received')
+
+    # def ReceiveData(self):
+    #     print('Data Received')
+    #     data = self.dynamicCall('GetSingleData()')
