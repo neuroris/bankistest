@@ -26,26 +26,19 @@ class Bankis(BankisBase):
         self.set_single_data(1, '005930')
         self.request_data('SCP')
 
-    def get_account_list(self):
-        self.account_list = list()
-        account_count = self.dynamic_call('GetAccountCount')
-        for index in range(account_count):
-            account = self.dynamic_call('GetAccount', index)
-            self.account_list.append(account)
-        if not self.account_list:
-            self.info('Failed to get account information')
-        else:
-            self.info('Account information')
-        return self.account_list
-
     def receive_data(self):
         self.debug('========== Data received ==========')
 
-        field_count = self.dynamic_call('GetSingleFieldCount')
+        msg_code = self.get_req_msg_code()
+        self.debug('Request message code:', msg_code)
+        request_message = self.get_req_message()
+        self.debug('Request message:', request_message)
+
+        field_count = self.get_single_field_count()
         self.debug('single field count:', field_count)
 
-        value = self.dynamic_call('GetSingleData', 11, 0)
-        attribute = self.dynamic_call('GetSingleData', 11, 1)
+        value = self.get_single_data(11, 0)
+        attribute = self.get_single_data(11, 1)
         self.debug('value', value)
         self.debug('attribute', attribute)
 
@@ -60,22 +53,34 @@ class Bankis(BankisBase):
         self.debug(param)
 
     def is_simulation_mode(self):
-        simulation_mode = self.dynamic_call('IsVTS')
+        simulation_mode = self.is_vts()
         if simulation_mode:
             self.debug('This connection is SIMULATION mode:')
         else:
             self.debug('This is REAL mode')
 
+    def get_account_list(self):
+        self.account_list = list()
+        account_count = self.get_account_count()
+        for index in range(account_count):
+            account = self.get_account(index)
+            self.account_list.append(account)
+        if not self.account_list:
+            self.info('Failed to get account information')
+        else:
+            self.info('Account information')
+        return self.account_list
+
     def get_w_param(self):
-        self.sent_w_param = self.dynamic_call('GetSendRqID')
+        self.sent_w_param = self.get_send_rq_id()
         self.debug('sent sPARAM', self.sent_w_param)
-        self.received_w_param = self.dynamic_call('GetRecvRqID')
+        self.received_w_param = self.get_recv_rq_id()
         self.debug('received sPARAM', self.received_w_param)
 
     def get_item_info(self):
         item_code = '005930'
-        item_s = self.dynamic_call('GetSingleDataStockMaster', item_code, 1)
-        item_name = self.dynamic_call('GetSingleDataStockMaster', item_code, 2)
+        item_s = self.get_single_data_stock_master(item_code, 1)
+        item_name = self.get_single_data_stock_master(item_code, 2)
         self.debug('item standard code', item_s)
         self.debug('item name', item_name)
 

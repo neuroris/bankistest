@@ -1,0 +1,65 @@
+2021-10-01 16:28:45,770 Test initiated...
+2021-10-01 16:28:45,770 This connection is SIMULATION mode:
+2021-10-01 16:28:45,770 Account information
+2021-10-01 16:28:45,770 Account list ['5005266401', '6001162803']
+2021-10-01 16:28:45,790 ========== Data received ==========
+2021-10-01 16:28:45,790 single field count: 72
+2021-10-01 16:28:45,790 value 73200
+2021-10-01 16:28:45,790 attribute 16
+2021-10-01 16:29:59,534 Test initiated...
+2021-10-01 16:29:59,535 This connection is SIMULATION mode:
+2021-10-01 16:29:59,535 Account information
+2021-10-01 16:29:59,535 Account list ['5005266401', '6001162803']
+2021-10-01 16:29:59,551 ========== Data received ==========
+2021-10-01 16:29:59,551 single field count: 72
+2021-10-01 16:29:59,551 value 73200
+2021-10-01 16:29:59,551 attribute 16
+2021-10-01 17:28:17,697 Test initiated...
+2021-10-01 17:28:17,697 This connection is SIMULATION mode:
+2021-10-01 17:28:17,697 Account information
+2021-10-01 17:28:17,697 Account list ['5005266401', '6001162803']
+2021-10-01 17:28:17,704 item standard code KR7005930003
+2021-10-01 17:28:17,705 item name 삼성전자
+2021-10-01 17:28:17,722 ========== Data received ==========
+2021-10-01 17:28:17,722 single field count: 72
+2021-10-01 17:28:17,723 value 73200
+2021-10-01 17:28:17,723 attribute 16
+2021-10-01 17:59:33,334 Test initiated...
+2021-10-01 17:59:33,335 This connection is SIMULATION mode:
+2021-10-01 17:59:33,335 Account information
+2021-10-01 17:59:33,335 Account list ['5005266401', '6001162803']
+2021-10-01 17:59:33,350 ========== Data received ==========
+2021-10-01 17:59:33,350 Request message code: MCA00000
+2021-10-01 17:59:33,350 single field count: 72
+2021-10-01 17:59:33,350 value 73200
+2021-10-01 17:59:33,350 attribute 16
+2021-10-01 18:00:35,655 Test initiated...
+2021-10-01 18:00:35,656 This connection is SIMULATION mode:
+2021-10-01 18:00:35,656 Account information
+2021-10-01 18:00:35,656 Account list ['5005266401', '6001162803']
+2021-10-01 18:00:35,669 ========== Data received ==========
+2021-10-01 18:00:35,669 Request message code: MCA00000
+2021-10-01 18:00:35,669 Request message: 정상처리 되었습니다. ()
+2021-10-01 18:00:35,670 single field count: 72
+2021-10-01 18:00:35,670 value 73200
+2021-10-01 18:00:35,670 attribute 16
+2021-10-01 18:02:50,875 Test initiated...
+2021-10-01 18:02:50,875 This connection is SIMULATION mode:
+2021-10-01 18:02:50,875 Account information
+2021-10-01 18:02:50,875 Account list ['5005266401', '6001162803']
+2021-10-01 18:02:50,891 ========== Data received ==========
+2021-10-01 18:02:50,891 Request message code: MCA00000
+2021-10-01 18:02:50,891 Request message: 정상처리 되었습니다. ()
+2021-10-01 18:02:50,891 single field count: 7
+2021-10-01 18:02:50,891 value 
+2021-10-01 18:02:50,891 attribute 
+2021-10-01 18:03:02,175 Test initiated...
+2021-10-01 18:03:02,175 This connection is SIMULATION mode:
+2021-10-01 18:03:02,175 Account information
+2021-10-01 18:03:02,175 Account list ['5005266401', '6001162803']
+2021-10-01 18:03:02,190 ========== Data received ==========
+2021-10-01 18:03:02,190 Request message code: MCA00000
+2021-10-01 18:03:02,190 Request message: 정상처리 되었습니다. ()
+2021-10-01 18:03:02,191 single field count: 72
+2021-10-01 18:03:02,191 value 73200
+2021-10-01 18:03:02,191 attribute 16

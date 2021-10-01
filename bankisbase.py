@@ -35,6 +35,10 @@ class BankisBase(QAxWidget, WookLog, WookUtil):
     def set_multi_data(self, record, field, value):
         self.dynamic_call('SetMultiData', record, field, value)
 
+    def set_multi_block_data(self, block, record, field, value):
+        result = self.dynamic_call('SetMultiBlockData', block, record, field, value)
+        return result
+
     def get_single_field_count(self):
         field_count = self.dynamic_call('GetSingleFieldCount')
         return field_count
@@ -76,3 +80,52 @@ class BankisBase(QAxWidget, WookLog, WookUtil):
 
     def request_next_data(self, service):
         self.dynamic_call('RequestNextData', service)
+
+    def request_real_data(self, service, field):
+        self.dynamic_call('RequestRealData', service, field)
+
+    def unrequest_real_data(self, service, field):
+        self.dynamic_call('UnRequestRealData', service, field)
+
+    def unrequest_all_real_data(self):
+        self.dynamic_call('UnRequestAllRealData')
+
+    def is_more_next_data(self):
+        result = self.dynamic_call('IsMoreNextData')
+        return result
+
+    def get_account_count(self):
+        count = self.dynamic_call('GetAccountCount')
+        return count
+
+    def get_account(self, index):
+        account = self.dynamic_call('GetAccount', index)
+        return account
+
+    def get_account_br_code(self, account):
+        code = self.dynamic_call('GetAccountBrCode', account)
+        return code
+
+    def get_encrypt_password(self, password):
+        encrypt_password = self.dynamic_call('GetEncryptPassword', password)
+        return encrypt_password
+
+    def get_overseas_stock_sise(self):
+        info = self.dynamic_call('GetOverSeasStockSise')
+        return info
+
+    def get_send_rq_id(self):
+        w_param = self.dynamic_call('GetSendRqID')
+        return w_param
+
+    def get_recv_rq_id(self):
+        w_param = self.dynamic_call('GetRecvRqID')
+        return w_param
+
+    def get_single_data_stock_master(self, item_code, field):
+        data = self.dynamic_call('GetSingleDataStockMaster', item_code, field)
+        return data
+
+    def is_vts(self):
+        result = self.dynamic_call('IsVTS')
+        return result
