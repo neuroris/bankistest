@@ -1,10 +1,15 @@
 from PyQt5.QAxContainer import QAxWidget
 from wookutil import WookLog, WookUtil
+import time
 
 class BankisBase(QAxWidget, WookLog, WookUtil):
     def __init__(self, trader, log, key):
         super().__init__('08E39D09-206D-43D1-AC78-D1AE3635A4E9')
         WookLog.custom_init(self, log)
+
+        # Request limit
+        self.previous_time = 0.0
+        self.consecutive_interval_limit = 0.012
 
         # Deposit
         self.account_list = None
@@ -76,18 +81,23 @@ class BankisBase(QAxWidget, WookLog, WookUtil):
         return message
 
     def request_data(self, service):
+        self.check_time_rule()
         self.dynamic_call('RequestData', service)
 
     def request_next_data(self, service):
+        self.check_time_rule()
         self.dynamic_call('RequestNextData', service)
 
     def request_real_data(self, service, field):
+        self.check_time_rule()
         self.dynamic_call('RequestRealData', service, field)
 
     def unrequest_real_data(self, service, field):
+        self.check_time_rule()
         self.dynamic_call('UnRequestRealData', service, field)
 
     def unrequest_all_real_data(self):
+        self.check_time_rule()
         self.dynamic_call('UnRequestAllRealData')
 
     def is_more_next_data(self):
@@ -129,3 +139,13 @@ class BankisBase(QAxWidget, WookLog, WookUtil):
     def is_vts(self):
         result = self.dynamic_call('IsVTS')
         return result
+
+    def check_time_rule(self):
+        time_interval = time.time() - self.previous_time
+        if time_interval < self.consecutive_interval_limit:
+            waiting_time = self.consecutive_interval_limit - time_interval
+            print('now waiting consecutive interval')
+            time.sleep(waiting_time)
+
+        current_time = time.time()
+        self.previous_time = current_time
