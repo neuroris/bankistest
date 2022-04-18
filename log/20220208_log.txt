@@ -1,0 +1,1454 @@
+2022-02-08 11:11:23,443 Test initiated...
+2022-02-08 11:11:23,444 This connection is SIMULATION mode
+2022-02-08 11:11:23,444 Account information
+2022-02-08 11:11:23,444 Account list ['5005938101', '6001290303']
+2022-02-08 11:11:23,507 ========== Data received (SATPS*2:3) ==========
+2022-02-08 11:11:23,507 Request message code: 20310000
+2022-02-08 11:11:23,508 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:11:23,509 block(0), record(0), field(0) 122630
+2022-02-08 11:11:23,509 block(0), record(0), field(1) KODEX 레버리지
+2022-02-08 11:11:23,510 block(0), record(0), field(2) 현금
+2022-02-08 11:11:23,510 block(0), record(0), field(3) 0
+2022-02-08 11:11:23,511 block(0), record(0), field(4) 0
+2022-02-08 11:11:23,511 block(0), record(0), field(5) 0
+2022-02-08 11:11:23,511 block(0), record(0), field(6) 0
+2022-02-08 11:11:23,511 block(0), record(0), field(7) 1200
+2022-02-08 11:11:23,511 block(0), record(0), field(8) 1200
+2022-02-08 11:11:23,511 block(0), record(0), field(9) 21110.0540
+2022-02-08 11:11:23,512 block(0), record(0), field(10) 25332065
+2022-02-08 11:11:23,512 block(0), record(0), field(11) 20335
+2022-02-08 11:11:23,512 block(0), record(0), field(12) 24402000
+2022-02-08 11:11:23,512 block(0), record(0), field(13) -930065
+2022-02-08 11:11:23,512 block(0), record(0), field(14) -3.67
+2022-02-08 11:11:23,512 block(0), record(0), field(15) -3.67149303
+2022-02-08 11:11:23,513 block(0), record(0), field(16) 
+2022-02-08 11:11:23,513 block(0), record(0), field(17) 0
+2022-02-08 11:11:23,513 block(0), record(0), field(18) 0
+2022-02-08 11:11:23,513 block(0), record(0), field(19) 
+2022-02-08 11:11:23,513 block(0), record(0), field(20) 1.04000000
+2022-02-08 11:11:23,513 block(0), record(0), field(21) 210
+2022-02-08 11:11:23,514 block(0), record(0), field(22) 100%
+2022-02-08 11:11:23,514 block(0), record(0), field(23) 
+2022-02-08 11:11:23,514 block(0), record(0), field(24) 0
+2022-02-08 11:11:23,514 block(0), record(0), field(25) 0.0000
+2022-02-08 11:11:23,514 block(0), record(1), field(0) 323410
+2022-02-08 11:11:23,514 block(0), record(1), field(1) 카카오뱅크
+2022-02-08 11:11:23,515 block(0), record(1), field(2) 현금
+2022-02-08 11:11:23,515 block(0), record(1), field(3) 0
+2022-02-08 11:11:23,515 block(0), record(1), field(4) 0
+2022-02-08 11:11:23,515 block(0), record(1), field(5) 0
+2022-02-08 11:11:23,515 block(0), record(1), field(6) 0
+2022-02-08 11:11:23,515 block(0), record(1), field(7) 15
+2022-02-08 11:11:23,515 block(0), record(1), field(8) 15
+2022-02-08 11:11:23,515 block(0), record(1), field(9) 42150.0000
+2022-02-08 11:11:23,516 block(0), record(1), field(10) 632250
+2022-02-08 11:11:23,516 block(0), record(1), field(11) 44100
+2022-02-08 11:11:23,516 block(0), record(1), field(12) 661500
+2022-02-08 11:11:23,516 block(0), record(1), field(13) 29250
+2022-02-08 11:11:23,516 block(0), record(1), field(14) 4.63
+2022-02-08 11:11:23,516 block(0), record(1), field(15) 4.62633452
+2022-02-08 11:11:23,516 block(0), record(1), field(16) 
+2022-02-08 11:11:23,516 block(0), record(1), field(17) 0
+2022-02-08 11:11:23,517 block(0), record(1), field(18) 0
+2022-02-08 11:11:23,517 block(0), record(1), field(19) 
+2022-02-08 11:11:23,517 block(0), record(1), field(20) 4.13000000
+2022-02-08 11:11:23,517 block(0), record(1), field(21) 1750
+2022-02-08 11:11:23,517 block(0), record(1), field(22) 40%
+2022-02-08 11:11:23,517 block(0), record(1), field(23) 
+2022-02-08 11:11:23,517 block(0), record(1), field(24) 0
+2022-02-08 11:11:23,518 block(0), record(1), field(25) 0.0000
+2022-02-08 11:11:23,518 block(1), record(0), field(0) 474031865
+2022-02-08 11:11:23,518 block(1), record(0), field(1) 474031865
+2022-02-08 11:11:23,518 block(1), record(0), field(2) 474031865
+2022-02-08 11:11:23,518 block(1), record(0), field(3) 0
+2022-02-08 11:11:23,518 block(1), record(0), field(4) 0
+2022-02-08 11:11:23,518 block(1), record(0), field(5) 0
+2022-02-08 11:11:23,518 block(1), record(0), field(6) 0
+2022-02-08 11:11:23,519 block(1), record(0), field(7) 0
+2022-02-08 11:11:23,519 block(1), record(0), field(8) 0
+2022-02-08 11:11:23,519 block(1), record(0), field(9) 0
+2022-02-08 11:11:23,519 block(1), record(0), field(10) 0
+2022-02-08 11:11:23,519 block(1), record(0), field(11) 0
+2022-02-08 11:11:23,519 block(1), record(0), field(12) 0
+2022-02-08 11:11:23,520 block(1), record(0), field(13) 25063500
+2022-02-08 11:11:23,520 block(1), record(0), field(14) 499095365
+2022-02-08 11:11:23,520 block(1), record(0), field(15) 499093754
+2022-02-08 11:11:23,520 block(1), record(0), field(16) 
+2022-02-08 11:11:23,520 block(1), record(0), field(17) 25964315
+2022-02-08 11:11:23,520 block(1), record(0), field(18) 25063500
+2022-02-08 11:11:23,521 block(1), record(0), field(19) -900815
+2022-02-08 11:11:23,521 block(1), record(0), field(20) 0
+2022-02-08 11:11:23,521 block(1), record(0), field(21) 498817115
+2022-02-08 11:11:23,521 block(1), record(0), field(22) 278250
+2022-02-08 11:11:23,521 block(1), record(0), field(23) 0.05578197
+2022-02-08 11:11:23,522 block(0), record(0), field(0) 122630
+2022-02-08 11:11:23,522 block(0), record(0), field(1) KODEX 레버리지
+2022-02-08 11:11:23,522 block(0), record(0), field(2) 현금
+2022-02-08 11:11:23,522 block(0), record(0), field(3) 0
+2022-02-08 11:11:23,522 block(0), record(0), field(4) 0
+2022-02-08 11:11:23,523 block(0), record(0), field(5) 0
+2022-02-08 11:11:23,523 block(0), record(0), field(6) 0
+2022-02-08 11:11:23,523 block(0), record(0), field(7) 1200
+2022-02-08 11:11:23,523 block(0), record(0), field(8) 1200
+2022-02-08 11:11:23,523 block(0), record(0), field(9) 21110.0540
+2022-02-08 11:11:23,523 block(0), record(0), field(10) 25332065
+2022-02-08 11:11:23,523 block(0), record(0), field(11) 20335
+2022-02-08 11:11:23,523 block(0), record(0), field(12) 24402000
+2022-02-08 11:11:23,524 block(0), record(0), field(13) -930065
+2022-02-08 11:11:23,524 block(0), record(0), field(14) -3.67
+2022-02-08 11:11:23,524 block(0), record(0), field(15) -3.67149303
+2022-02-08 11:11:23,524 block(0), record(0), field(16) 
+2022-02-08 11:11:23,524 block(0), record(0), field(17) 0
+2022-02-08 11:11:23,524 block(0), record(0), field(18) 0
+2022-02-08 11:11:23,524 block(0), record(0), field(19) 
+2022-02-08 11:11:23,524 block(0), record(0), field(20) 1.04000000
+2022-02-08 11:11:23,525 block(0), record(0), field(21) 210
+2022-02-08 11:11:23,525 block(0), record(0), field(22) 100%
+2022-02-08 11:11:23,525 block(0), record(0), field(23) 
+2022-02-08 11:11:23,525 block(0), record(0), field(24) 0
+2022-02-08 11:11:23,525 block(0), record(0), field(25) 0.0000
+2022-02-08 11:11:23,525 block(0), record(1), field(0) 323410
+2022-02-08 11:11:23,525 block(0), record(1), field(1) 카카오뱅크
+2022-02-08 11:11:23,526 block(0), record(1), field(2) 현금
+2022-02-08 11:11:23,526 block(0), record(1), field(3) 0
+2022-02-08 11:11:23,526 block(0), record(1), field(4) 0
+2022-02-08 11:11:23,526 block(0), record(1), field(5) 0
+2022-02-08 11:11:23,526 block(0), record(1), field(6) 0
+2022-02-08 11:11:23,526 block(0), record(1), field(7) 15
+2022-02-08 11:11:23,526 block(0), record(1), field(8) 15
+2022-02-08 11:11:23,526 block(0), record(1), field(9) 42150.0000
+2022-02-08 11:11:23,527 block(0), record(1), field(10) 632250
+2022-02-08 11:11:23,527 block(0), record(1), field(11) 44100
+2022-02-08 11:11:23,527 block(0), record(1), field(12) 661500
+2022-02-08 11:11:23,527 block(0), record(1), field(13) 29250
+2022-02-08 11:11:23,527 block(0), record(1), field(14) 4.63
+2022-02-08 11:11:23,527 block(0), record(1), field(15) 4.62633452
+2022-02-08 11:11:23,527 block(0), record(1), field(16) 
+2022-02-08 11:11:23,527 block(0), record(1), field(17) 0
+2022-02-08 11:11:23,528 block(0), record(1), field(18) 0
+2022-02-08 11:11:23,528 block(0), record(1), field(19) 
+2022-02-08 11:11:23,528 block(0), record(1), field(20) 4.13000000
+2022-02-08 11:11:23,528 block(0), record(1), field(21) 1750
+2022-02-08 11:11:23,528 block(0), record(1), field(22) 40%
+2022-02-08 11:11:23,528 block(0), record(1), field(23) 
+2022-02-08 11:11:23,529 block(0), record(1), field(24) 0
+2022-02-08 11:11:23,529 block(0), record(1), field(25) 0.0000
+2022-02-08 11:11:23,530 block(1), record(0), field(0) 474031865
+2022-02-08 11:11:23,530 block(1), record(0), field(1) 474031865
+2022-02-08 11:11:23,530 block(1), record(0), field(2) 474031865
+2022-02-08 11:11:23,530 block(1), record(0), field(3) 0
+2022-02-08 11:11:23,530 block(1), record(0), field(4) 0
+2022-02-08 11:11:23,531 block(1), record(0), field(5) 0
+2022-02-08 11:11:23,531 block(1), record(0), field(6) 0
+2022-02-08 11:11:23,531 block(1), record(0), field(7) 0
+2022-02-08 11:11:23,531 block(1), record(0), field(8) 0
+2022-02-08 11:11:23,531 block(1), record(0), field(9) 0
+2022-02-08 11:11:23,531 block(1), record(0), field(10) 0
+2022-02-08 11:11:23,531 block(1), record(0), field(11) 0
+2022-02-08 11:11:23,531 block(1), record(0), field(12) 0
+2022-02-08 11:11:23,532 block(1), record(0), field(13) 25063500
+2022-02-08 11:11:23,532 block(1), record(0), field(14) 499095365
+2022-02-08 11:11:23,532 block(1), record(0), field(15) 499093754
+2022-02-08 11:11:23,532 block(1), record(0), field(16) 
+2022-02-08 11:11:23,532 block(1), record(0), field(17) 25964315
+2022-02-08 11:11:23,532 block(1), record(0), field(18) 25063500
+2022-02-08 11:11:23,532 block(1), record(0), field(19) -900815
+2022-02-08 11:11:23,533 block(1), record(0), field(20) 0
+2022-02-08 11:11:23,533 block(1), record(0), field(21) 498817115
+2022-02-08 11:11:23,533 block(1), record(0), field(22) 278250
+2022-02-08 11:11:23,533 block(1), record(0), field(23) 0.05578197
+2022-02-08 11:11:44,657 Test initiated...
+2022-02-08 11:11:44,657 This connection is SIMULATION mode
+2022-02-08 11:11:44,658 Account information
+2022-02-08 11:11:44,658 Account list ['5005938101', '6001290303']
+2022-02-08 11:11:44,722 ========== Data received (SATPS*2:4) ==========
+2022-02-08 11:11:44,723 Request message code: 20310000
+2022-02-08 11:11:44,723 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:11:44,723 block(0), record(0), field(0) 122630
+2022-02-08 11:11:44,724 block(0), record(0), field(1) KODEX 레버리지
+2022-02-08 11:11:44,724 block(0), record(0), field(2) 현금
+2022-02-08 11:11:44,724 block(0), record(0), field(3) 0
+2022-02-08 11:11:44,725 block(0), record(0), field(4) 0
+2022-02-08 11:11:44,725 block(0), record(0), field(5) 0
+2022-02-08 11:11:44,725 block(0), record(0), field(6) 0
+2022-02-08 11:11:44,725 block(0), record(0), field(7) 1200
+2022-02-08 11:11:44,726 block(0), record(0), field(8) 1200
+2022-02-08 11:11:44,726 block(0), record(0), field(9) 21110.0540
+2022-02-08 11:11:44,726 block(0), record(0), field(10) 25332065
+2022-02-08 11:11:44,726 block(0), record(0), field(11) 20350
+2022-02-08 11:11:44,727 block(0), record(0), field(12) 24420000
+2022-02-08 11:11:44,727 block(0), record(0), field(13) -912065
+2022-02-08 11:11:44,727 block(0), record(0), field(14) -3.60
+2022-02-08 11:11:44,727 block(0), record(0), field(15) -3.60043684
+2022-02-08 11:11:44,728 block(0), record(0), field(16) 
+2022-02-08 11:11:44,728 block(0), record(0), field(17) 0
+2022-02-08 11:11:44,728 block(0), record(0), field(18) 0
+2022-02-08 11:11:44,728 block(0), record(0), field(19) 
+2022-02-08 11:11:44,728 block(0), record(0), field(20) 1.12000000
+2022-02-08 11:11:44,729 block(0), record(0), field(21) 225
+2022-02-08 11:11:44,729 block(0), record(0), field(22) 100%
+2022-02-08 11:11:44,729 block(0), record(0), field(23) 
+2022-02-08 11:11:44,730 block(0), record(0), field(24) 0
+2022-02-08 11:11:44,730 block(0), record(0), field(25) 0.0000
+2022-02-08 11:11:44,730 block(0), record(1), field(0) 323410
+2022-02-08 11:11:44,730 block(0), record(1), field(1) 카카오뱅크
+2022-02-08 11:11:44,730 block(0), record(1), field(2) 현금
+2022-02-08 11:11:44,730 block(0), record(1), field(3) 0
+2022-02-08 11:11:44,730 block(0), record(1), field(4) 0
+2022-02-08 11:11:44,731 block(0), record(1), field(5) 0
+2022-02-08 11:11:44,731 block(0), record(1), field(6) 0
+2022-02-08 11:11:44,731 block(0), record(1), field(7) 15
+2022-02-08 11:11:44,731 block(0), record(1), field(8) 15
+2022-02-08 11:11:44,732 block(0), record(1), field(9) 42150.0000
+2022-02-08 11:11:44,732 block(0), record(1), field(10) 632250
+2022-02-08 11:11:44,732 block(0), record(1), field(11) 44050
+2022-02-08 11:11:44,733 block(0), record(1), field(12) 660750
+2022-02-08 11:11:44,733 block(0), record(1), field(13) 28500
+2022-02-08 11:11:44,733 block(0), record(1), field(14) 4.51
+2022-02-08 11:11:44,733 block(0), record(1), field(15) 4.50771056
+2022-02-08 11:11:44,734 block(0), record(1), field(16) 
+2022-02-08 11:11:44,734 block(0), record(1), field(17) 0
+2022-02-08 11:11:44,734 block(0), record(1), field(18) 0
+2022-02-08 11:11:44,734 block(0), record(1), field(19) 
+2022-02-08 11:11:44,735 block(0), record(1), field(20) 4.01000000
+2022-02-08 11:11:44,735 block(0), record(1), field(21) 1700
+2022-02-08 11:11:44,735 block(0), record(1), field(22) 40%
+2022-02-08 11:11:44,735 block(0), record(1), field(23) 
+2022-02-08 11:11:44,736 block(0), record(1), field(24) 0
+2022-02-08 11:11:44,736 block(0), record(1), field(25) 0.0000
+2022-02-08 11:11:44,736 block(1), record(0), field(0) 474031865
+2022-02-08 11:11:44,736 block(1), record(0), field(1) 474031865
+2022-02-08 11:11:44,737 block(1), record(0), field(2) 474031865
+2022-02-08 11:11:44,737 block(1), record(0), field(3) 0
+2022-02-08 11:11:44,737 block(1), record(0), field(4) 0
+2022-02-08 11:11:44,738 block(1), record(0), field(5) 0
+2022-02-08 11:11:44,738 block(1), record(0), field(6) 0
+2022-02-08 11:11:44,738 block(1), record(0), field(7) 0
+2022-02-08 11:11:44,738 block(1), record(0), field(8) 0
+2022-02-08 11:11:44,739 block(1), record(0), field(9) 0
+2022-02-08 11:11:44,739 block(1), record(0), field(10) 0
+2022-02-08 11:11:44,740 block(1), record(0), field(11) 0
+2022-02-08 11:11:44,740 block(1), record(0), field(12) 0
+2022-02-08 11:11:44,740 block(1), record(0), field(13) 25080750
+2022-02-08 11:11:44,740 block(1), record(0), field(14) 499112615
+2022-02-08 11:11:44,741 block(1), record(0), field(15) 499111006
+2022-02-08 11:11:44,741 block(1), record(0), field(16) 
+2022-02-08 11:11:44,741 block(1), record(0), field(17) 25964315
+2022-02-08 11:11:44,741 block(1), record(0), field(18) 25080750
+2022-02-08 11:11:44,741 block(1), record(0), field(19) -883565
+2022-02-08 11:11:44,742 block(1), record(0), field(20) 0
+2022-02-08 11:11:44,742 block(1), record(0), field(21) 498817115
+2022-02-08 11:11:44,742 block(1), record(0), field(22) 295500
+2022-02-08 11:11:44,742 block(1), record(0), field(23) 0.05924015
+2022-02-08 11:11:44,744 block(0), record(0), field(0) 122630
+2022-02-08 11:11:44,744 block(0), record(0), field(1) KODEX 레버리지
+2022-02-08 11:11:44,744 block(0), record(0), field(2) 현금
+2022-02-08 11:11:44,744 block(0), record(0), field(3) 0
+2022-02-08 11:11:44,745 block(0), record(0), field(4) 0
+2022-02-08 11:11:44,745 block(0), record(0), field(5) 0
+2022-02-08 11:11:44,745 block(0), record(0), field(6) 0
+2022-02-08 11:11:44,746 block(0), record(0), field(7) 1200
+2022-02-08 11:11:44,746 block(0), record(0), field(8) 1200
+2022-02-08 11:11:44,747 block(0), record(0), field(9) 21110.0540
+2022-02-08 11:11:44,747 block(0), record(0), field(10) 25332065
+2022-02-08 11:11:44,747 block(0), record(0), field(11) 20350
+2022-02-08 11:11:44,747 block(0), record(0), field(12) 24420000
+2022-02-08 11:11:44,748 block(0), record(0), field(13) -912065
+2022-02-08 11:11:44,748 block(0), record(0), field(14) -3.60
+2022-02-08 11:11:44,748 block(0), record(0), field(15) -3.60043684
+2022-02-08 11:11:44,748 block(0), record(0), field(16) 
+2022-02-08 11:11:44,749 block(0), record(0), field(17) 0
+2022-02-08 11:11:44,749 block(0), record(0), field(18) 0
+2022-02-08 11:11:44,749 block(0), record(0), field(19) 
+2022-02-08 11:11:44,749 block(0), record(0), field(20) 1.12000000
+2022-02-08 11:11:44,750 block(0), record(0), field(21) 225
+2022-02-08 11:11:44,750 block(0), record(0), field(22) 100%
+2022-02-08 11:11:44,750 block(0), record(0), field(23) 
+2022-02-08 11:11:44,750 block(0), record(0), field(24) 0
+2022-02-08 11:11:44,751 block(0), record(0), field(25) 0.0000
+2022-02-08 11:11:44,751 block(0), record(1), field(0) 323410
+2022-02-08 11:11:44,751 block(0), record(1), field(1) 카카오뱅크
+2022-02-08 11:11:44,752 block(0), record(1), field(2) 현금
+2022-02-08 11:11:44,752 block(0), record(1), field(3) 0
+2022-02-08 11:11:44,752 block(0), record(1), field(4) 0
+2022-02-08 11:11:44,752 block(0), record(1), field(5) 0
+2022-02-08 11:11:44,753 block(0), record(1), field(6) 0
+2022-02-08 11:11:44,753 block(0), record(1), field(7) 15
+2022-02-08 11:11:44,753 block(0), record(1), field(8) 15
+2022-02-08 11:11:44,753 block(0), record(1), field(9) 42150.0000
+2022-02-08 11:11:44,754 block(0), record(1), field(10) 632250
+2022-02-08 11:11:44,755 block(0), record(1), field(11) 44050
+2022-02-08 11:11:44,755 block(0), record(1), field(12) 660750
+2022-02-08 11:11:44,755 block(0), record(1), field(13) 28500
+2022-02-08 11:11:44,756 block(0), record(1), field(14) 4.51
+2022-02-08 11:11:44,756 block(0), record(1), field(15) 4.50771056
+2022-02-08 11:11:44,756 block(0), record(1), field(16) 
+2022-02-08 11:11:44,756 block(0), record(1), field(17) 0
+2022-02-08 11:11:44,757 block(0), record(1), field(18) 0
+2022-02-08 11:11:44,757 block(0), record(1), field(19) 
+2022-02-08 11:11:44,757 block(0), record(1), field(20) 4.01000000
+2022-02-08 11:11:44,757 block(0), record(1), field(21) 1700
+2022-02-08 11:11:44,757 block(0), record(1), field(22) 40%
+2022-02-08 11:11:44,758 block(0), record(1), field(23) 
+2022-02-08 11:11:44,758 block(0), record(1), field(24) 0
+2022-02-08 11:11:44,758 block(0), record(1), field(25) 0.0000
+2022-02-08 11:11:44,759 block(1), record(0), field(0) 474031865
+2022-02-08 11:11:44,759 block(1), record(0), field(1) 474031865
+2022-02-08 11:11:44,759 block(1), record(0), field(2) 474031865
+2022-02-08 11:11:44,759 block(1), record(0), field(3) 0
+2022-02-08 11:11:44,760 block(1), record(0), field(4) 0
+2022-02-08 11:11:44,760 block(1), record(0), field(5) 0
+2022-02-08 11:11:44,760 block(1), record(0), field(6) 0
+2022-02-08 11:11:44,760 block(1), record(0), field(7) 0
+2022-02-08 11:11:44,761 block(1), record(0), field(8) 0
+2022-02-08 11:11:44,761 block(1), record(0), field(9) 0
+2022-02-08 11:11:44,761 block(1), record(0), field(10) 0
+2022-02-08 11:11:44,762 block(1), record(0), field(11) 0
+2022-02-08 11:11:44,762 block(1), record(0), field(12) 0
+2022-02-08 11:11:44,763 block(1), record(0), field(13) 25080750
+2022-02-08 11:11:44,763 block(1), record(0), field(14) 499112615
+2022-02-08 11:11:44,763 block(1), record(0), field(15) 499111006
+2022-02-08 11:11:44,763 block(1), record(0), field(16) 
+2022-02-08 11:11:44,764 block(1), record(0), field(17) 25964315
+2022-02-08 11:11:44,764 block(1), record(0), field(18) 25080750
+2022-02-08 11:11:44,764 block(1), record(0), field(19) -883565
+2022-02-08 11:11:44,765 block(1), record(0), field(20) 0
+2022-02-08 11:11:44,765 block(1), record(0), field(21) 498817115
+2022-02-08 11:11:44,765 block(1), record(0), field(22) 295500
+2022-02-08 11:11:44,765 block(1), record(0), field(23) 0.05924015
+2022-02-08 11:13:29,400 Test initiated...
+2022-02-08 11:13:29,401 This connection is SIMULATION mode
+2022-02-08 11:13:29,401 Account information
+2022-02-08 11:13:29,401 Account list ['5005938101', '6001290303']
+2022-02-08 11:13:56,931 Test initiated...
+2022-02-08 11:13:56,931 This connection is SIMULATION mode
+2022-02-08 11:13:56,932 Account information
+2022-02-08 11:13:56,932 Account list ['5005938101', '6001290303']
+2022-02-08 11:14:44,938 Test initiated...
+2022-02-08 11:14:44,938 This connection is SIMULATION mode
+2022-02-08 11:14:44,939 Account information
+2022-02-08 11:14:44,939 Account list ['5005938101', '6001290303']
+2022-02-08 11:18:52,350 Test initiated...
+2022-02-08 11:18:52,351 This connection is SIMULATION mode
+2022-02-08 11:18:52,351 Account information
+2022-02-08 11:18:52,352 Account list ['5005938101', '6001290303']
+2022-02-08 11:21:54,637 Test initiated...
+2022-02-08 11:21:54,638 This connection is SIMULATION mode
+2022-02-08 11:21:54,638 Account information
+2022-02-08 11:21:54,639 Account list ['5005938101', '6001290303']
+2022-02-08 11:25:24,975 Test initiated...
+2022-02-08 11:25:24,975 This connection is SIMULATION mode
+2022-02-08 11:25:24,976 Account information
+2022-02-08 11:25:24,976 Account list ['5005938101', '6001290303']
+2022-02-08 11:25:25,059 ========== Data received (SATPS*2:10) ==========
+2022-02-08 11:25:25,059 Request message code: 20310000
+2022-02-08 11:25:25,059 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:25:25,060 block(0), record(0), field(0) 122630
+2022-02-08 11:25:25,060 block(0), record(0), field(1) KODEX 레버리지
+2022-02-08 11:25:25,060 block(0), record(0), field(2) 현금
+2022-02-08 11:25:25,061 block(0), record(0), field(3) 0
+2022-02-08 11:25:25,061 block(0), record(0), field(4) 0
+2022-02-08 11:25:25,061 block(0), record(0), field(5) 0
+2022-02-08 11:25:25,061 block(0), record(0), field(6) 0
+2022-02-08 11:25:25,062 block(0), record(0), field(7) 1200
+2022-02-08 11:25:25,062 block(0), record(0), field(8) 1200
+2022-02-08 11:25:25,062 block(0), record(0), field(9) 21110.0540
+2022-02-08 11:25:25,062 block(0), record(0), field(10) 25332065
+2022-02-08 11:25:25,062 block(0), record(0), field(11) 20390
+2022-02-08 11:25:25,062 block(0), record(0), field(12) 24468000
+2022-02-08 11:25:25,062 block(0), record(0), field(13) -864065
+2022-02-08 11:25:25,063 block(0), record(0), field(14) -3.41
+2022-02-08 11:25:25,063 block(0), record(0), field(15) -3.41095367
+2022-02-08 11:25:25,063 block(0), record(0), field(16) 
+2022-02-08 11:25:25,063 block(0), record(0), field(17) 0
+2022-02-08 11:25:25,063 block(0), record(0), field(18) 0
+2022-02-08 11:25:25,063 block(0), record(0), field(19) 
+2022-02-08 11:25:25,063 block(0), record(0), field(20) 1.32000000
+2022-02-08 11:25:25,064 block(0), record(0), field(21) 265
+2022-02-08 11:25:25,064 block(0), record(0), field(22) 100%
+2022-02-08 11:25:25,064 block(0), record(0), field(23) 
+2022-02-08 11:25:25,064 block(0), record(0), field(24) 0
+2022-02-08 11:25:25,064 block(0), record(0), field(25) 0.0000
+2022-02-08 11:25:25,064 block(0), record(1), field(0) 323410
+2022-02-08 11:25:25,064 block(0), record(1), field(1) 카카오뱅크
+2022-02-08 11:25:25,065 block(0), record(1), field(2) 현금
+2022-02-08 11:25:25,065 block(0), record(1), field(3) 0
+2022-02-08 11:25:25,065 block(0), record(1), field(4) 0
+2022-02-08 11:25:25,065 block(0), record(1), field(5) 0
+2022-02-08 11:25:25,065 block(0), record(1), field(6) 0
+2022-02-08 11:25:25,065 block(0), record(1), field(7) 15
+2022-02-08 11:25:25,065 block(0), record(1), field(8) 15
+2022-02-08 11:25:25,065 block(0), record(1), field(9) 42150.0000
+2022-02-08 11:25:25,066 block(0), record(1), field(10) 632250
+2022-02-08 11:25:25,066 block(0), record(1), field(11) 44050
+2022-02-08 11:25:25,066 block(0), record(1), field(12) 660750
+2022-02-08 11:25:25,066 block(0), record(1), field(13) 28500
+2022-02-08 11:25:25,066 block(0), record(1), field(14) 4.51
+2022-02-08 11:25:25,066 block(0), record(1), field(15) 4.50771056
+2022-02-08 11:25:25,066 block(0), record(1), field(16) 
+2022-02-08 11:25:25,067 block(0), record(1), field(17) 0
+2022-02-08 11:25:25,067 block(0), record(1), field(18) 0
+2022-02-08 11:25:25,067 block(0), record(1), field(19) 
+2022-02-08 11:25:25,067 block(0), record(1), field(20) 4.01000000
+2022-02-08 11:25:25,067 block(0), record(1), field(21) 1700
+2022-02-08 11:25:25,067 block(0), record(1), field(22) 40%
+2022-02-08 11:25:25,067 block(0), record(1), field(23) 
+2022-02-08 11:25:25,068 block(0), record(1), field(24) 0
+2022-02-08 11:25:25,068 block(0), record(1), field(25) 0.0000
+2022-02-08 11:25:25,068 block(1), record(0), field(0) 474031865
+2022-02-08 11:25:25,068 block(1), record(0), field(1) 474031865
+2022-02-08 11:25:25,068 block(1), record(0), field(2) 474031865
+2022-02-08 11:25:25,068 block(1), record(0), field(3) 0
+2022-02-08 11:25:25,069 block(1), record(0), field(4) 0
+2022-02-08 11:25:25,069 block(1), record(0), field(5) 0
+2022-02-08 11:25:25,069 block(1), record(0), field(6) 0
+2022-02-08 11:25:25,069 block(1), record(0), field(7) 0
+2022-02-08 11:25:25,069 block(1), record(0), field(8) 0
+2022-02-08 11:25:25,069 block(1), record(0), field(9) 0
+2022-02-08 11:25:25,070 block(1), record(0), field(10) 0
+2022-02-08 11:25:25,070 block(1), record(0), field(11) 0
+2022-02-08 11:25:25,070 block(1), record(0), field(12) 0
+2022-02-08 11:25:25,070 block(1), record(0), field(13) 25128750
+2022-02-08 11:25:25,070 block(1), record(0), field(14) 499160615
+2022-02-08 11:25:25,071 block(1), record(0), field(15) 499159006
+2022-02-08 11:25:25,071 block(1), record(0), field(16) 
+2022-02-08 11:25:25,071 block(1), record(0), field(17) 25964315
+2022-02-08 11:25:25,071 block(1), record(0), field(18) 25128750
+2022-02-08 11:25:25,071 block(1), record(0), field(19) -835565
+2022-02-08 11:25:25,071 block(1), record(0), field(20) 0
+2022-02-08 11:25:25,072 block(1), record(0), field(21) 498817115
+2022-02-08 11:25:25,072 block(1), record(0), field(22) 343500
+2022-02-08 11:25:25,072 block(1), record(0), field(23) 0.06886291
+2022-02-08 11:25:25,073 block(0), record(0), field(0) 122630
+2022-02-08 11:25:25,073 block(0), record(0), field(1) KODEX 레버리지
+2022-02-08 11:25:25,073 block(0), record(0), field(2) 현금
+2022-02-08 11:25:25,073 block(0), record(0), field(3) 0
+2022-02-08 11:25:25,073 block(0), record(0), field(4) 0
+2022-02-08 11:25:25,074 block(0), record(0), field(5) 0
+2022-02-08 11:25:25,074 block(0), record(0), field(6) 0
+2022-02-08 11:25:25,074 block(0), record(0), field(7) 1200
+2022-02-08 11:25:25,074 block(0), record(0), field(8) 1200
+2022-02-08 11:25:25,074 block(0), record(0), field(9) 21110.0540
+2022-02-08 11:25:25,074 block(0), record(0), field(10) 25332065
+2022-02-08 11:25:25,074 block(0), record(0), field(11) 20390
+2022-02-08 11:25:25,075 block(0), record(0), field(12) 24468000
+2022-02-08 11:25:25,075 block(0), record(0), field(13) -864065
+2022-02-08 11:25:25,075 block(0), record(0), field(14) -3.41
+2022-02-08 11:25:25,075 block(0), record(0), field(15) -3.41095367
+2022-02-08 11:25:25,075 block(0), record(0), field(16) 
+2022-02-08 11:25:25,075 block(0), record(0), field(17) 0
+2022-02-08 11:25:25,075 block(0), record(0), field(18) 0
+2022-02-08 11:25:25,075 block(0), record(0), field(19) 
+2022-02-08 11:25:25,076 block(0), record(0), field(20) 1.32000000
+2022-02-08 11:25:25,076 block(0), record(0), field(21) 265
+2022-02-08 11:25:25,076 block(0), record(0), field(22) 100%
+2022-02-08 11:25:25,076 block(0), record(0), field(23) 
+2022-02-08 11:25:25,076 block(0), record(0), field(24) 0
+2022-02-08 11:25:25,076 block(0), record(0), field(25) 0.0000
+2022-02-08 11:25:25,077 block(0), record(1), field(0) 323410
+2022-02-08 11:25:25,077 block(0), record(1), field(1) 카카오뱅크
+2022-02-08 11:25:25,077 block(0), record(1), field(2) 현금
+2022-02-08 11:25:25,077 block(0), record(1), field(3) 0
+2022-02-08 11:25:25,077 block(0), record(1), field(4) 0
+2022-02-08 11:25:25,077 block(0), record(1), field(5) 0
+2022-02-08 11:25:25,078 block(0), record(1), field(6) 0
+2022-02-08 11:25:25,078 block(0), record(1), field(7) 15
+2022-02-08 11:25:25,078 block(0), record(1), field(8) 15
+2022-02-08 11:25:25,078 block(0), record(1), field(9) 42150.0000
+2022-02-08 11:25:25,078 block(0), record(1), field(10) 632250
+2022-02-08 11:25:25,078 block(0), record(1), field(11) 44050
+2022-02-08 11:25:25,079 block(0), record(1), field(12) 660750
+2022-02-08 11:25:25,079 block(0), record(1), field(13) 28500
+2022-02-08 11:25:25,079 block(0), record(1), field(14) 4.51
+2022-02-08 11:25:25,079 block(0), record(1), field(15) 4.50771056
+2022-02-08 11:25:25,079 block(0), record(1), field(16) 
+2022-02-08 11:25:25,079 block(0), record(1), field(17) 0
+2022-02-08 11:25:25,079 block(0), record(1), field(18) 0
+2022-02-08 11:25:25,080 block(0), record(1), field(19) 
+2022-02-08 11:25:25,080 block(0), record(1), field(20) 4.01000000
+2022-02-08 11:25:25,080 block(0), record(1), field(21) 1700
+2022-02-08 11:25:25,080 block(0), record(1), field(22) 40%
+2022-02-08 11:25:25,080 block(0), record(1), field(23) 
+2022-02-08 11:25:25,080 block(0), record(1), field(24) 0
+2022-02-08 11:25:25,081 block(0), record(1), field(25) 0.0000
+2022-02-08 11:25:25,081 block(1), record(0), field(0) 474031865
+2022-02-08 11:25:25,081 block(1), record(0), field(1) 474031865
+2022-02-08 11:25:25,081 block(1), record(0), field(2) 474031865
+2022-02-08 11:25:25,081 block(1), record(0), field(3) 0
+2022-02-08 11:25:25,081 block(1), record(0), field(4) 0
+2022-02-08 11:25:25,081 block(1), record(0), field(5) 0
+2022-02-08 11:25:25,082 block(1), record(0), field(6) 0
+2022-02-08 11:25:25,082 block(1), record(0), field(7) 0
+2022-02-08 11:25:25,082 block(1), record(0), field(8) 0
+2022-02-08 11:25:25,082 block(1), record(0), field(9) 0
+2022-02-08 11:25:25,082 block(1), record(0), field(10) 0
+2022-02-08 11:25:25,082 block(1), record(0), field(11) 0
+2022-02-08 11:25:25,082 block(1), record(0), field(12) 0
+2022-02-08 11:25:25,083 block(1), record(0), field(13) 25128750
+2022-02-08 11:25:25,083 block(1), record(0), field(14) 499160615
+2022-02-08 11:25:25,083 block(1), record(0), field(15) 499159006
+2022-02-08 11:25:25,083 block(1), record(0), field(16) 
+2022-02-08 11:25:25,083 block(1), record(0), field(17) 25964315
+2022-02-08 11:25:25,083 block(1), record(0), field(18) 25128750
+2022-02-08 11:25:25,083 block(1), record(0), field(19) -835565
+2022-02-08 11:25:25,084 block(1), record(0), field(20) 0
+2022-02-08 11:25:25,084 block(1), record(0), field(21) 498817115
+2022-02-08 11:25:25,084 block(1), record(0), field(22) 343500
+2022-02-08 11:25:25,084 block(1), record(0), field(23) 0.06886291
+2022-02-08 11:26:30,742 Test initiated...
+2022-02-08 11:26:30,743 This connection is SIMULATION mode
+2022-02-08 11:26:30,743 Account information
+2022-02-08 11:26:30,743 Account list ['5005938101', '6001290303']
+2022-02-08 11:27:55,903 Test initiated...
+2022-02-08 11:27:55,903 This connection is SIMULATION mode
+2022-02-08 11:28:31,719 Test initiated...
+2022-02-08 11:28:31,719 This connection is SIMULATION mode
+2022-02-08 11:28:31,719 Account information
+2022-02-08 11:28:31,720 Account list ['5005938101', '6001290303']
+2022-02-08 11:29:24,505 Test initiated...
+2022-02-08 11:29:25,285 This connection is SIMULATION mode
+2022-02-08 11:29:29,019 Account information
+2022-02-08 11:29:33,272 Account list ['5005938101', '6001290303']
+2022-02-08 11:30:30,460 Test initiated...
+2022-02-08 11:30:30,461 This connection is SIMULATION mode
+2022-02-08 11:30:30,461 Account information
+2022-02-08 11:30:30,461 Account list ['5005938101', '6001290303']
+2022-02-08 11:30:48,227 Test initiated...
+2022-02-08 11:30:48,228 This connection is SIMULATION mode
+2022-02-08 11:30:48,228 Account information
+2022-02-08 11:30:48,228 Account list ['5005938101', '6001290303']
+2022-02-08 11:31:08,479 Test initiated...
+2022-02-08 11:31:08,479 This connection is SIMULATION mode
+2022-02-08 11:31:08,480 Account information
+2022-02-08 11:31:08,480 Account list ['5005938101', '6001290303']
+2022-02-08 11:31:31,620 Test initiated...
+2022-02-08 11:31:31,620 This connection is SIMULATION mode
+2022-02-08 11:31:31,620 Account information
+2022-02-08 11:31:31,621 Account list ['5005938101', '6001290303']
+2022-02-08 11:31:31,678 ========== Data received (SATPS*2:13) ==========
+2022-02-08 11:31:31,679 Request message code: 20310000
+2022-02-08 11:31:31,679 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:31:31,679 block(0), record(0), field(0) 122630
+2022-02-08 11:31:31,679 block(0), record(0), field(1) KODEX 레버리지
+2022-02-08 11:31:31,680 block(0), record(0), field(2) 현금
+2022-02-08 11:31:31,680 block(0), record(0), field(3) 0
+2022-02-08 11:31:31,680 block(0), record(0), field(4) 0
+2022-02-08 11:31:31,681 block(0), record(0), field(5) 0
+2022-02-08 11:31:31,681 block(0), record(0), field(6) 0
+2022-02-08 11:31:31,681 block(0), record(0), field(7) 1200
+2022-02-08 11:31:31,681 block(0), record(0), field(8) 1200
+2022-02-08 11:31:31,681 block(0), record(0), field(9) 21110.0540
+2022-02-08 11:31:31,682 block(0), record(0), field(10) 25332065
+2022-02-08 11:31:31,682 block(0), record(0), field(11) 20415
+2022-02-08 11:31:31,682 block(0), record(0), field(12) 24498000
+2022-02-08 11:31:31,682 block(0), record(0), field(13) -834065
+2022-02-08 11:31:31,683 block(0), record(0), field(14) -3.29
+2022-02-08 11:31:31,683 block(0), record(0), field(15) -3.29252669
+2022-02-08 11:31:31,683 block(0), record(0), field(16) 
+2022-02-08 11:31:31,683 block(0), record(0), field(17) 0
+2022-02-08 11:31:31,684 block(0), record(0), field(18) 0
+2022-02-08 11:31:31,684 block(0), record(0), field(19) 
+2022-02-08 11:31:31,684 block(0), record(0), field(20) 1.44000000
+2022-02-08 11:31:31,684 block(0), record(0), field(21) 290
+2022-02-08 11:31:31,684 block(0), record(0), field(22) 100%
+2022-02-08 11:31:31,685 block(0), record(0), field(23) 
+2022-02-08 11:31:31,685 block(0), record(0), field(24) 0
+2022-02-08 11:31:31,685 block(0), record(0), field(25) 0.0000
+2022-02-08 11:31:31,685 block(0), record(1), field(0) 323410
+2022-02-08 11:31:31,686 block(0), record(1), field(1) 카카오뱅크
+2022-02-08 11:31:31,686 block(0), record(1), field(2) 현금
+2022-02-08 11:31:31,686 block(0), record(1), field(3) 0
+2022-02-08 11:31:31,686 block(0), record(1), field(4) 0
+2022-02-08 11:31:31,686 block(0), record(1), field(5) 0
+2022-02-08 11:31:31,687 block(0), record(1), field(6) 0
+2022-02-08 11:31:31,687 block(0), record(1), field(7) 15
+2022-02-08 11:31:31,687 block(0), record(1), field(8) 15
+2022-02-08 11:31:31,687 block(0), record(1), field(9) 42150.0000
+2022-02-08 11:31:31,688 block(0), record(1), field(10) 632250
+2022-02-08 11:31:31,688 block(0), record(1), field(11) 44050
+2022-02-08 11:31:31,688 block(0), record(1), field(12) 660750
+2022-02-08 11:31:31,688 block(0), record(1), field(13) 28500
+2022-02-08 11:31:31,689 block(0), record(1), field(14) 4.51
+2022-02-08 11:31:31,689 block(0), record(1), field(15) 4.50771056
+2022-02-08 11:31:31,689 block(0), record(1), field(16) 
+2022-02-08 11:31:31,689 block(0), record(1), field(17) 0
+2022-02-08 11:31:31,689 block(0), record(1), field(18) 0
+2022-02-08 11:31:31,690 block(0), record(1), field(19) 
+2022-02-08 11:31:31,690 block(0), record(1), field(20) 4.01000000
+2022-02-08 11:31:31,690 block(0), record(1), field(21) 1700
+2022-02-08 11:31:31,691 block(0), record(1), field(22) 40%
+2022-02-08 11:31:31,691 block(0), record(1), field(23) 
+2022-02-08 11:31:31,691 block(0), record(1), field(24) 0
+2022-02-08 11:31:31,691 block(0), record(1), field(25) 0.0000
+2022-02-08 11:31:31,692 block(1), record(0), field(0) 474031865
+2022-02-08 11:31:31,692 block(1), record(0), field(1) 474031865
+2022-02-08 11:31:31,692 block(1), record(0), field(2) 474031865
+2022-02-08 11:31:31,692 block(1), record(0), field(3) 0
+2022-02-08 11:31:31,693 block(1), record(0), field(4) 0
+2022-02-08 11:31:31,693 block(1), record(0), field(5) 0
+2022-02-08 11:31:31,693 block(1), record(0), field(6) 0
+2022-02-08 11:31:31,693 block(1), record(0), field(7) 0
+2022-02-08 11:31:31,693 block(1), record(0), field(8) 0
+2022-02-08 11:31:31,694 block(1), record(0), field(9) 0
+2022-02-08 11:31:31,694 block(1), record(0), field(10) 0
+2022-02-08 11:31:31,694 block(1), record(0), field(11) 0
+2022-02-08 11:31:31,694 block(1), record(0), field(12) 0
+2022-02-08 11:31:31,695 block(1), record(0), field(13) 25158750
+2022-02-08 11:31:31,695 block(1), record(0), field(14) 499190615
+2022-02-08 11:31:31,695 block(1), record(0), field(15) 499189006
+2022-02-08 11:31:31,695 block(1), record(0), field(16) 
+2022-02-08 11:31:31,695 block(1), record(0), field(17) 25964315
+2022-02-08 11:31:31,696 block(1), record(0), field(18) 25158750
+2022-02-08 11:31:31,696 block(1), record(0), field(19) -805565
+2022-02-08 11:31:31,696 block(1), record(0), field(20) 0
+2022-02-08 11:31:31,696 block(1), record(0), field(21) 498817115
+2022-02-08 11:31:31,696 block(1), record(0), field(22) 373500
+2022-02-08 11:31:31,697 block(1), record(0), field(23) 0.07487714
+2022-02-08 11:31:31,698 block(0), record(0), field(0) 122630
+2022-02-08 11:31:31,698 block(0), record(0), field(1) KODEX 레버리지
+2022-02-08 11:31:31,698 block(0), record(0), field(2) 현금
+2022-02-08 11:31:31,698 block(0), record(0), field(3) 0
+2022-02-08 11:31:31,698 block(0), record(0), field(4) 0
+2022-02-08 11:31:31,699 block(0), record(0), field(5) 0
+2022-02-08 11:31:31,699 block(0), record(0), field(6) 0
+2022-02-08 11:31:31,699 block(0), record(0), field(7) 1200
+2022-02-08 11:31:31,699 block(0), record(0), field(8) 1200
+2022-02-08 11:31:31,700 block(0), record(0), field(9) 21110.0540
+2022-02-08 11:31:31,700 block(0), record(0), field(10) 25332065
+2022-02-08 11:31:31,700 block(0), record(0), field(11) 20415
+2022-02-08 11:31:31,700 block(0), record(0), field(12) 24498000
+2022-02-08 11:31:31,701 block(0), record(0), field(13) -834065
+2022-02-08 11:31:31,701 block(0), record(0), field(14) -3.29
+2022-02-08 11:31:31,701 block(0), record(0), field(15) -3.29252669
+2022-02-08 11:31:31,701 block(0), record(0), field(16) 
+2022-02-08 11:31:31,702 block(0), record(0), field(17) 0
+2022-02-08 11:31:31,702 block(0), record(0), field(18) 0
+2022-02-08 11:31:31,702 block(0), record(0), field(19) 
+2022-02-08 11:31:31,702 block(0), record(0), field(20) 1.44000000
+2022-02-08 11:31:31,703 block(0), record(0), field(21) 290
+2022-02-08 11:31:31,703 block(0), record(0), field(22) 100%
+2022-02-08 11:31:31,703 block(0), record(0), field(23) 
+2022-02-08 11:31:31,703 block(0), record(0), field(24) 0
+2022-02-08 11:31:31,704 block(0), record(0), field(25) 0.0000
+2022-02-08 11:31:31,704 block(0), record(1), field(0) 323410
+2022-02-08 11:31:31,704 block(0), record(1), field(1) 카카오뱅크
+2022-02-08 11:31:31,704 block(0), record(1), field(2) 현금
+2022-02-08 11:31:31,705 block(0), record(1), field(3) 0
+2022-02-08 11:31:31,705 block(0), record(1), field(4) 0
+2022-02-08 11:31:31,705 block(0), record(1), field(5) 0
+2022-02-08 11:31:31,705 block(0), record(1), field(6) 0
+2022-02-08 11:31:31,705 block(0), record(1), field(7) 15
+2022-02-08 11:31:31,706 block(0), record(1), field(8) 15
+2022-02-08 11:31:31,706 block(0), record(1), field(9) 42150.0000
+2022-02-08 11:31:31,706 block(0), record(1), field(10) 632250
+2022-02-08 11:31:31,707 block(0), record(1), field(11) 44050
+2022-02-08 11:31:31,707 block(0), record(1), field(12) 660750
+2022-02-08 11:31:31,707 block(0), record(1), field(13) 28500
+2022-02-08 11:31:31,707 block(0), record(1), field(14) 4.51
+2022-02-08 11:31:31,707 block(0), record(1), field(15) 4.50771056
+2022-02-08 11:31:31,708 block(0), record(1), field(16) 
+2022-02-08 11:31:31,708 block(0), record(1), field(17) 0
+2022-02-08 11:31:31,708 block(0), record(1), field(18) 0
+2022-02-08 11:31:31,708 block(0), record(1), field(19) 
+2022-02-08 11:31:31,709 block(0), record(1), field(20) 4.01000000
+2022-02-08 11:31:31,709 block(0), record(1), field(21) 1700
+2022-02-08 11:31:31,709 block(0), record(1), field(22) 40%
+2022-02-08 11:31:31,709 block(0), record(1), field(23) 
+2022-02-08 11:31:31,709 block(0), record(1), field(24) 0
+2022-02-08 11:31:31,710 block(0), record(1), field(25) 0.0000
+2022-02-08 11:31:31,710 block(1), record(0), field(0) 474031865
+2022-02-08 11:31:31,710 block(1), record(0), field(1) 474031865
+2022-02-08 11:31:31,710 block(1), record(0), field(2) 474031865
+2022-02-08 11:31:31,711 block(1), record(0), field(3) 0
+2022-02-08 11:31:31,711 block(1), record(0), field(4) 0
+2022-02-08 11:31:31,711 block(1), record(0), field(5) 0
+2022-02-08 11:31:31,711 block(1), record(0), field(6) 0
+2022-02-08 11:31:31,712 block(1), record(0), field(7) 0
+2022-02-08 11:31:31,712 block(1), record(0), field(8) 0
+2022-02-08 11:31:31,712 block(1), record(0), field(9) 0
+2022-02-08 11:31:31,712 block(1), record(0), field(10) 0
+2022-02-08 11:31:31,712 block(1), record(0), field(11) 0
+2022-02-08 11:31:31,713 block(1), record(0), field(12) 0
+2022-02-08 11:31:31,713 block(1), record(0), field(13) 25158750
+2022-02-08 11:31:31,713 block(1), record(0), field(14) 499190615
+2022-02-08 11:31:31,713 block(1), record(0), field(15) 499189006
+2022-02-08 11:31:31,713 block(1), record(0), field(16) 
+2022-02-08 11:31:31,714 block(1), record(0), field(17) 25964315
+2022-02-08 11:31:31,714 block(1), record(0), field(18) 25158750
+2022-02-08 11:31:31,714 block(1), record(0), field(19) -805565
+2022-02-08 11:31:31,714 block(1), record(0), field(20) 0
+2022-02-08 11:31:31,715 block(1), record(0), field(21) 498817115
+2022-02-08 11:31:31,715 block(1), record(0), field(22) 373500
+2022-02-08 11:31:31,715 block(1), record(0), field(23) 0.07487714
+2022-02-08 11:32:17,281 Test initiated...
+2022-02-08 11:32:17,281 This connection is SIMULATION mode
+2022-02-08 11:32:17,282 Account information
+2022-02-08 11:32:17,282 Account list ['5005938101', '6001290303']
+2022-02-08 11:32:17,353 ========== Data received (SATPS*2:14) ==========
+2022-02-08 11:32:17,353 Request message code: 20310000
+2022-02-08 11:32:17,353 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:32:17,354 block(0), record(0), field(0) 122630
+2022-02-08 11:32:17,354 block(0), record(0), field(1) KODEX 레버리지
+2022-02-08 11:32:17,354 block(0), record(0), field(2) 현금
+2022-02-08 11:32:17,354 block(0), record(0), field(3) 0
+2022-02-08 11:32:17,355 block(0), record(0), field(4) 0
+2022-02-08 11:32:17,355 block(0), record(0), field(5) 0
+2022-02-08 11:32:17,355 block(0), record(0), field(6) 0
+2022-02-08 11:32:17,355 block(0), record(0), field(7) 1200
+2022-02-08 11:32:17,355 block(0), record(0), field(8) 1200
+2022-02-08 11:32:17,356 block(0), record(0), field(9) 21110.0540
+2022-02-08 11:32:17,356 block(0), record(0), field(10) 25332065
+2022-02-08 11:32:17,356 block(0), record(0), field(11) 20410
+2022-02-08 11:32:17,356 block(0), record(0), field(12) 24492000
+2022-02-08 11:32:17,357 block(0), record(0), field(13) -840065
+2022-02-08 11:32:17,357 block(0), record(0), field(14) -3.32
+2022-02-08 11:32:17,357 block(0), record(0), field(15) -3.31621208
+2022-02-08 11:32:17,357 block(0), record(0), field(16) 
+2022-02-08 11:32:17,358 block(0), record(0), field(17) 0
+2022-02-08 11:32:17,358 block(0), record(0), field(18) 0
+2022-02-08 11:32:17,358 block(0), record(0), field(19) 
+2022-02-08 11:32:17,358 block(0), record(0), field(20) 1.42000000
+2022-02-08 11:32:17,359 block(0), record(0), field(21) 285
+2022-02-08 11:32:17,359 block(0), record(0), field(22) 100%
+2022-02-08 11:32:17,359 block(0), record(0), field(23) 
+2022-02-08 11:32:17,359 block(0), record(0), field(24) 0
+2022-02-08 11:32:17,359 block(0), record(0), field(25) 0.0000
+2022-02-08 11:32:17,360 block(0), record(1), field(0) 323410
+2022-02-08 11:32:17,360 block(0), record(1), field(1) 카카오뱅크
+2022-02-08 11:32:17,360 block(0), record(1), field(2) 현금
+2022-02-08 11:32:17,360 block(0), record(1), field(3) 0
+2022-02-08 11:32:17,361 block(0), record(1), field(4) 0
+2022-02-08 11:32:17,361 block(0), record(1), field(5) 0
+2022-02-08 11:32:17,361 block(0), record(1), field(6) 0
+2022-02-08 11:32:17,361 block(0), record(1), field(7) 15
+2022-02-08 11:32:17,362 block(0), record(1), field(8) 15
+2022-02-08 11:32:17,362 block(0), record(1), field(9) 42150.0000
+2022-02-08 11:32:17,362 block(0), record(1), field(10) 632250
+2022-02-08 11:32:17,363 block(0), record(1), field(11) 44050
+2022-02-08 11:32:17,363 block(0), record(1), field(12) 660750
+2022-02-08 11:32:17,363 block(0), record(1), field(13) 28500
+2022-02-08 11:32:17,363 block(0), record(1), field(14) 4.51
+2022-02-08 11:32:17,363 block(0), record(1), field(15) 4.50771056
+2022-02-08 11:32:17,364 block(0), record(1), field(16) 
+2022-02-08 11:32:17,364 block(0), record(1), field(17) 0
+2022-02-08 11:32:17,364 block(0), record(1), field(18) 0
+2022-02-08 11:32:17,364 block(0), record(1), field(19) 
+2022-02-08 11:32:17,365 block(0), record(1), field(20) 4.01000000
+2022-02-08 11:32:17,365 block(0), record(1), field(21) 1700
+2022-02-08 11:32:17,365 block(0), record(1), field(22) 40%
+2022-02-08 11:32:17,365 block(0), record(1), field(23) 
+2022-02-08 11:32:17,365 block(0), record(1), field(24) 0
+2022-02-08 11:32:17,366 block(0), record(1), field(25) 0.0000
+2022-02-08 11:32:17,366 block(1), record(0), field(0) 474031865
+2022-02-08 11:32:17,366 block(1), record(0), field(1) 474031865
+2022-02-08 11:32:17,366 block(1), record(0), field(2) 474031865
+2022-02-08 11:32:17,367 block(1), record(0), field(3) 0
+2022-02-08 11:32:17,367 block(1), record(0), field(4) 0
+2022-02-08 11:32:17,367 block(1), record(0), field(5) 0
+2022-02-08 11:32:17,367 block(1), record(0), field(6) 0
+2022-02-08 11:32:17,368 block(1), record(0), field(7) 0
+2022-02-08 11:32:17,368 block(1), record(0), field(8) 0
+2022-02-08 11:32:17,368 block(1), record(0), field(9) 0
+2022-02-08 11:32:17,368 block(1), record(0), field(10) 0
+2022-02-08 11:32:17,369 block(1), record(0), field(11) 0
+2022-02-08 11:32:17,369 block(1), record(0), field(12) 0
+2022-02-08 11:32:17,369 block(1), record(0), field(13) 25152750
+2022-02-08 11:32:17,369 block(1), record(0), field(14) 499184615
+2022-02-08 11:32:17,369 block(1), record(0), field(15) 499183006
+2022-02-08 11:32:17,370 block(1), record(0), field(16) 
+2022-02-08 11:32:17,370 block(1), record(0), field(17) 25964315
+2022-02-08 11:32:17,370 block(1), record(0), field(18) 25152750
+2022-02-08 11:32:17,371 block(1), record(0), field(19) -811565
+2022-02-08 11:32:17,371 block(1), record(0), field(20) 0
+2022-02-08 11:32:17,371 block(1), record(0), field(21) 498817115
+2022-02-08 11:32:17,371 block(1), record(0), field(22) 367500
+2022-02-08 11:32:17,371 block(1), record(0), field(23) 0.07367430
+2022-02-08 11:32:17,372 block(0), record(0), field(0) 122630
+2022-02-08 11:32:17,373 block(0), record(0), field(1) KODEX 레버리지
+2022-02-08 11:32:17,373 block(0), record(0), field(2) 현금
+2022-02-08 11:32:17,373 block(0), record(0), field(3) 0
+2022-02-08 11:32:17,373 block(0), record(0), field(4) 0
+2022-02-08 11:32:17,374 block(0), record(0), field(5) 0
+2022-02-08 11:32:17,374 block(0), record(0), field(6) 0
+2022-02-08 11:32:17,374 block(0), record(0), field(7) 1200
+2022-02-08 11:32:17,374 block(0), record(0), field(8) 1200
+2022-02-08 11:32:17,375 block(0), record(0), field(9) 21110.0540
+2022-02-08 11:32:17,375 block(0), record(0), field(10) 25332065
+2022-02-08 11:32:17,375 block(0), record(0), field(11) 20410
+2022-02-08 11:32:17,375 block(0), record(0), field(12) 24492000
+2022-02-08 11:32:17,376 block(0), record(0), field(13) -840065
+2022-02-08 11:32:17,376 block(0), record(0), field(14) -3.32
+2022-02-08 11:32:17,376 block(0), record(0), field(15) -3.31621208
+2022-02-08 11:32:17,376 block(0), record(0), field(16) 
+2022-02-08 11:32:17,376 block(0), record(0), field(17) 0
+2022-02-08 11:32:17,377 block(0), record(0), field(18) 0
+2022-02-08 11:32:17,377 block(0), record(0), field(19) 
+2022-02-08 11:32:17,377 block(0), record(0), field(20) 1.42000000
+2022-02-08 11:32:17,378 block(0), record(0), field(21) 285
+2022-02-08 11:32:17,378 block(0), record(0), field(22) 100%
+2022-02-08 11:32:17,378 block(0), record(0), field(23) 
+2022-02-08 11:32:17,378 block(0), record(0), field(24) 0
+2022-02-08 11:32:17,378 block(0), record(0), field(25) 0.0000
+2022-02-08 11:32:17,379 block(0), record(1), field(0) 323410
+2022-02-08 11:32:17,379 block(0), record(1), field(1) 카카오뱅크
+2022-02-08 11:32:17,379 block(0), record(1), field(2) 현금
+2022-02-08 11:32:17,379 block(0), record(1), field(3) 0
+2022-02-08 11:32:17,380 block(0), record(1), field(4) 0
+2022-02-08 11:32:17,380 block(0), record(1), field(5) 0
+2022-02-08 11:32:17,381 block(0), record(1), field(6) 0
+2022-02-08 11:32:17,381 block(0), record(1), field(7) 15
+2022-02-08 11:32:17,381 block(0), record(1), field(8) 15
+2022-02-08 11:32:17,381 block(0), record(1), field(9) 42150.0000
+2022-02-08 11:32:17,381 block(0), record(1), field(10) 632250
+2022-02-08 11:32:17,382 block(0), record(1), field(11) 44050
+2022-02-08 11:32:17,382 block(0), record(1), field(12) 660750
+2022-02-08 11:32:17,382 block(0), record(1), field(13) 28500
+2022-02-08 11:32:17,382 block(0), record(1), field(14) 4.51
+2022-02-08 11:32:17,383 block(0), record(1), field(15) 4.50771056
+2022-02-08 11:32:17,383 block(0), record(1), field(16) 
+2022-02-08 11:32:17,383 block(0), record(1), field(17) 0
+2022-02-08 11:32:17,383 block(0), record(1), field(18) 0
+2022-02-08 11:32:17,383 block(0), record(1), field(19) 
+2022-02-08 11:32:17,384 block(0), record(1), field(20) 4.01000000
+2022-02-08 11:32:17,384 block(0), record(1), field(21) 1700
+2022-02-08 11:32:17,384 block(0), record(1), field(22) 40%
+2022-02-08 11:32:17,384 block(0), record(1), field(23) 
+2022-02-08 11:32:17,385 block(0), record(1), field(24) 0
+2022-02-08 11:32:17,385 block(0), record(1), field(25) 0.0000
+2022-02-08 11:32:17,385 block(1), record(0), field(0) 474031865
+2022-02-08 11:32:17,385 block(1), record(0), field(1) 474031865
+2022-02-08 11:32:17,386 block(1), record(0), field(2) 474031865
+2022-02-08 11:32:17,386 block(1), record(0), field(3) 0
+2022-02-08 11:32:17,386 block(1), record(0), field(4) 0
+2022-02-08 11:32:17,386 block(1), record(0), field(5) 0
+2022-02-08 11:32:17,386 block(1), record(0), field(6) 0
+2022-02-08 11:32:17,387 block(1), record(0), field(7) 0
+2022-02-08 11:32:17,387 block(1), record(0), field(8) 0
+2022-02-08 11:32:17,387 block(1), record(0), field(9) 0
+2022-02-08 11:32:17,387 block(1), record(0), field(10) 0
+2022-02-08 11:32:17,388 block(1), record(0), field(11) 0
+2022-02-08 11:32:17,388 block(1), record(0), field(12) 0
+2022-02-08 11:32:17,388 block(1), record(0), field(13) 25152750
+2022-02-08 11:32:17,388 block(1), record(0), field(14) 499184615
+2022-02-08 11:32:17,389 block(1), record(0), field(15) 499183006
+2022-02-08 11:32:17,389 block(1), record(0), field(16) 
+2022-02-08 11:32:17,389 block(1), record(0), field(17) 25964315
+2022-02-08 11:32:17,389 block(1), record(0), field(18) 25152750
+2022-02-08 11:32:17,389 block(1), record(0), field(19) -811565
+2022-02-08 11:32:17,390 block(1), record(0), field(20) 0
+2022-02-08 11:32:17,390 block(1), record(0), field(21) 498817115
+2022-02-08 11:32:17,390 block(1), record(0), field(22) 367500
+2022-02-08 11:32:17,390 block(1), record(0), field(23) 0.07367430
+2022-02-08 11:32:17,391 Portfolio information
+2022-02-08 11:37:15,196 Test initiated...
+2022-02-08 11:37:15,196 This connection is SIMULATION mode
+2022-02-08 11:37:15,196 Account information
+2022-02-08 11:37:15,197 Account list ['5005938101', '6001290303']
+2022-02-08 11:37:15,255 ========== Data received (SATPS*2:15) ==========
+2022-02-08 11:37:15,255 Request message code: 20310000
+2022-02-08 11:37:15,255 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:37:19,925 block(0), record(0), field(0) 122630
+2022-02-08 11:37:19,926 block(0), record(0), field(1) KODEX 레버리지
+2022-02-08 11:37:19,926 block(0), record(0), field(2) 현금
+2022-02-08 11:37:19,927 block(0), record(0), field(3) 0
+2022-02-08 11:37:19,927 block(0), record(0), field(4) 0
+2022-02-08 11:37:19,927 block(0), record(0), field(5) 0
+2022-02-08 11:37:19,927 block(0), record(0), field(6) 0
+2022-02-08 11:37:19,928 block(0), record(0), field(7) 1200
+2022-02-08 11:37:19,928 block(0), record(0), field(8) 1200
+2022-02-08 11:37:19,928 block(0), record(0), field(9) 21110.0540
+2022-02-08 11:37:19,928 block(0), record(0), field(10) 25332065
+2022-02-08 11:37:19,929 block(0), record(0), field(11) 20385
+2022-02-08 11:37:19,929 block(0), record(0), field(12) 24462000
+2022-02-08 11:37:19,929 block(0), record(0), field(13) -870065
+2022-02-08 11:37:19,929 block(0), record(0), field(14) -3.43
+2022-02-08 11:37:19,930 block(0), record(0), field(15) -3.43463906
+2022-02-08 11:37:19,930 block(0), record(0), field(16) 
+2022-02-08 11:37:19,930 block(0), record(0), field(17) 0
+2022-02-08 11:37:19,930 block(0), record(0), field(18) 0
+2022-02-08 11:37:19,931 block(0), record(0), field(19) 
+2022-02-08 11:37:19,931 block(0), record(0), field(20) 1.29000000
+2022-02-08 11:37:19,931 block(0), record(0), field(21) 260
+2022-02-08 11:37:19,932 block(0), record(0), field(22) 100%
+2022-02-08 11:37:19,932 block(0), record(0), field(23) 
+2022-02-08 11:37:19,932 block(0), record(0), field(24) 0
+2022-02-08 11:37:19,932 block(0), record(0), field(25) 0.0000
+2022-02-08 11:37:19,933 block(0), record(1), field(0) 323410
+2022-02-08 11:37:19,933 block(0), record(1), field(1) 카카오뱅크
+2022-02-08 11:37:19,933 block(0), record(1), field(2) 현금
+2022-02-08 11:37:19,933 block(0), record(1), field(3) 0
+2022-02-08 11:37:19,934 block(0), record(1), field(4) 0
+2022-02-08 11:37:19,934 block(0), record(1), field(5) 0
+2022-02-08 11:37:19,934 block(0), record(1), field(6) 0
+2022-02-08 11:37:19,934 block(0), record(1), field(7) 15
+2022-02-08 11:37:19,935 block(0), record(1), field(8) 15
+2022-02-08 11:37:19,935 block(0), record(1), field(9) 42150.0000
+2022-02-08 11:37:19,935 block(0), record(1), field(10) 632250
+2022-02-08 11:37:19,935 block(0), record(1), field(11) 44200
+2022-02-08 11:37:19,935 block(0), record(1), field(12) 663000
+2022-02-08 11:37:19,936 block(0), record(1), field(13) 30750
+2022-02-08 11:37:19,936 block(0), record(1), field(14) 4.86
+2022-02-08 11:37:19,936 block(0), record(1), field(15) 4.86358244
+2022-02-08 11:37:19,936 block(0), record(1), field(16) 
+2022-02-08 11:37:19,937 block(0), record(1), field(17) 0
+2022-02-08 11:37:19,937 block(0), record(1), field(18) 0
+2022-02-08 11:37:19,937 block(0), record(1), field(19) 
+2022-02-08 11:37:19,937 block(0), record(1), field(20) 4.37000000
+2022-02-08 11:37:19,937 block(0), record(1), field(21) 1850
+2022-02-08 11:37:19,938 block(0), record(1), field(22) 40%
+2022-02-08 11:37:19,938 block(0), record(1), field(23) 
+2022-02-08 11:37:19,938 block(0), record(1), field(24) 0
+2022-02-08 11:37:19,938 block(0), record(1), field(25) 0.0000
+2022-02-08 11:37:19,943 block(1), record(0), field(0) 474031865
+2022-02-08 11:37:19,943 block(1), record(0), field(1) 474031865
+2022-02-08 11:37:19,943 block(1), record(0), field(2) 474031865
+2022-02-08 11:37:19,944 block(1), record(0), field(3) 0
+2022-02-08 11:37:19,944 block(1), record(0), field(4) 0
+2022-02-08 11:37:19,944 block(1), record(0), field(5) 0
+2022-02-08 11:37:19,944 block(1), record(0), field(6) 0
+2022-02-08 11:37:19,945 block(1), record(0), field(7) 0
+2022-02-08 11:37:19,945 block(1), record(0), field(8) 0
+2022-02-08 11:37:19,946 block(1), record(0), field(9) 0
+2022-02-08 11:37:19,946 block(1), record(0), field(10) 0
+2022-02-08 11:37:19,946 block(1), record(0), field(11) 0
+2022-02-08 11:37:19,946 block(1), record(0), field(12) 0
+2022-02-08 11:37:19,947 block(1), record(0), field(13) 25125000
+2022-02-08 11:37:19,947 block(1), record(0), field(14) 499156865
+2022-02-08 11:37:19,947 block(1), record(0), field(15) 499155251
+2022-02-08 11:37:19,947 block(1), record(0), field(16) 
+2022-02-08 11:37:19,948 block(1), record(0), field(17) 25964315
+2022-02-08 11:37:19,948 block(1), record(0), field(18) 25125000
+2022-02-08 11:37:19,948 block(1), record(0), field(19) -839315
+2022-02-08 11:37:19,948 block(1), record(0), field(20) 0
+2022-02-08 11:37:19,949 block(1), record(0), field(21) 498817115
+2022-02-08 11:37:19,949 block(1), record(0), field(22) 339750
+2022-02-08 11:37:19,949 block(1), record(0), field(23) 0.06811114
+2022-02-08 11:43:09,784 Test initiated...
+2022-02-08 11:43:09,785 This connection is SIMULATION mode
+2022-02-08 11:43:09,785 Account information
+2022-02-08 11:43:09,785 Account list ['5005938101', '6001290303']
+2022-02-08 11:43:09,856 ========== Data received (SATPS*2:16) ==========
+2022-02-08 11:43:09,856 Request message code: 20310000
+2022-02-08 11:43:09,856 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:43:09,857 Portfolio information
+2022-02-08 11:44:32,519 Test initiated...
+2022-02-08 11:44:32,520 This connection is SIMULATION mode
+2022-02-08 11:44:32,520 Account information
+2022-02-08 11:44:32,520 Account list ['5005938101', '6001290303']
+2022-02-08 11:45:28,628 Test initiated...
+2022-02-08 11:45:28,629 This connection is SIMULATION mode
+2022-02-08 11:45:28,629 Account information
+2022-02-08 11:45:28,629 Account list ['5005938101', '6001290303']
+2022-02-08 11:45:28,709 ========== Data received (SATPS*2:18) ==========
+2022-02-08 11:45:28,709 Request message code: 20310000
+2022-02-08 11:45:28,710 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:45:28,711 632250
+2022-02-08 11:45:28,711 Portfolio information
+2022-02-08 11:46:14,699 Test initiated...
+2022-02-08 11:46:14,699 This connection is SIMULATION mode
+2022-02-08 11:46:14,700 Account information
+2022-02-08 11:46:14,700 Account list ['5005938101', '6001290303']
+2022-02-08 11:46:14,786 ========== Data received (SATPS*2:19) ==========
+2022-02-08 11:46:14,786 Request message code: 20310000
+2022-02-08 11:46:14,786 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:46:14,787 KODEX 레버리지 25332065
+2022-02-08 11:46:14,787 카카오뱅크 632250
+2022-02-08 11:46:14,787 Portfolio information
+2022-02-08 11:49:00,093 Test initiated...
+2022-02-08 11:49:00,093 This connection is SIMULATION mode
+2022-02-08 11:49:00,093 Account information
+2022-02-08 11:49:00,094 Account list ['5005938101', '6001290303']
+2022-02-08 11:49:00,153 ========== Data received (SATPS*1:20) ==========
+2022-02-08 11:49:00,153 Request message code: 20310000
+2022-02-08 11:49:00,153 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:49:00,153 deposit 474031865
+2022-02-08 11:49:00,153 withdrawable 474031865
+2022-02-08 11:49:00,153 orderable 474031865
+2022-02-08 11:49:11,667 Test initiated...
+2022-02-08 11:49:11,667 This connection is SIMULATION mode
+2022-02-08 11:49:11,667 Account information
+2022-02-08 11:49:11,668 Account list ['5005938101', '6001290303']
+2022-02-08 11:49:11,739 ========== Data received (SATPS*1:21) ==========
+2022-02-08 11:49:11,739 Request message code: 20310000
+2022-02-08 11:49:11,740 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:49:11,740 deposit 474031865
+2022-02-08 11:49:11,740 withdrawable 474031865
+2022-02-08 11:49:11,740 orderable 474031865
+2022-02-08 11:49:11,763 ========== Data received (FOJL*1:22) ==========
+2022-02-08 11:49:11,763 Request message code: 20310000
+2022-02-08 11:49:11,763 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:49:11,764 deposit 331164500
+2022-02-08 11:49:11,764 withdrawable 331164500
+2022-02-08 11:49:11,764 orderable 118039730
+2022-02-08 11:49:28,806 Test initiated...
+2022-02-08 11:49:28,807 This connection is SIMULATION mode
+2022-02-08 11:49:28,807 Account information
+2022-02-08 11:49:28,807 Account list ['5005938101', '6001290303']
+2022-02-08 11:49:28,906 ========== Data received (SATPS*1:23) ==========
+2022-02-08 11:49:28,906 Request message code: 20310000
+2022-02-08 11:49:28,906 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:49:28,907 deposit 
+2022-02-08 11:49:28,907 withdrawable 
+2022-02-08 11:49:28,907 orderable 
+2022-02-08 11:49:28,919 ========== Data received (FOJL*1:24) ==========
+2022-02-08 11:49:28,920 Request message code: 20310000
+2022-02-08 11:49:28,920 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:49:28,920 deposit 331164500
+2022-02-08 11:49:28,920 withdrawable 331164500
+2022-02-08 11:49:28,920 orderable 118039730
+2022-02-08 11:49:28,962 ========== Data received (SATPS*2:25) ==========
+2022-02-08 11:49:28,962 Request message code: 20310000
+2022-02-08 11:49:28,962 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:49:28,963 KODEX 레버리지 25332065
+2022-02-08 11:49:28,963 카카오뱅크 632250
+2022-02-08 11:49:28,963 Portfolio information
+2022-02-08 11:49:51,115 Test initiated...
+2022-02-08 11:49:51,115 This connection is SIMULATION mode
+2022-02-08 11:49:51,115 Account information
+2022-02-08 11:49:51,115 Account list ['5005938101', '6001290303']
+2022-02-08 11:49:51,244 ========== Data received (SATPS*2:27) ==========
+2022-02-08 11:49:51,244 Request message code: 20310000
+2022-02-08 11:49:51,244 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:49:51,245 KODEX 레버리지 25332065
+2022-02-08 11:49:51,245 카카오뱅크 632250
+2022-02-08 11:49:51,245 Portfolio information
+2022-02-08 11:50:15,676 Test initiated...
+2022-02-08 11:50:15,677 This connection is SIMULATION mode
+2022-02-08 11:50:15,677 Account information
+2022-02-08 11:50:15,677 Account list ['5005938101', '6001290303']
+2022-02-08 11:50:16,684 ========== Data received (SATPS*1:28) ==========
+2022-02-08 11:50:16,684 Request message code: 20310000
+2022-02-08 11:50:16,684 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:50:16,684 deposit 
+2022-02-08 11:50:16,685 withdrawable 
+2022-02-08 11:50:16,685 orderable 
+2022-02-08 11:50:16,737 ========== Data received (SATPS*2:29) ==========
+2022-02-08 11:50:16,737 Request message code: 20310000
+2022-02-08 11:50:16,737 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:50:16,737 KODEX 레버리지 25332065
+2022-02-08 11:50:16,738 카카오뱅크 632250
+2022-02-08 11:50:16,738 Portfolio information
+2022-02-08 11:54:27,431 Test initiated...
+2022-02-08 11:54:27,432 This connection is SIMULATION mode
+2022-02-08 11:54:27,432 Account information
+2022-02-08 11:54:27,432 Account list ['5005938101', '6001290303']
+2022-02-08 11:54:28,448 ========== Data received (SATPS*1:30) ==========
+2022-02-08 11:54:28,448 Request message code: 20310000
+2022-02-08 11:54:28,448 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:54:32,690 deposit 
+2022-02-08 11:54:33,405 withdrawable 
+2022-02-08 11:54:34,064 orderable 
+2022-02-08 11:54:36,864 ========== Data received (SATPS*2:31) ==========
+2022-02-08 11:54:36,864 Request message code: 20310000
+2022-02-08 11:54:36,864 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:54:57,762 Test initiated...
+2022-02-08 11:54:57,762 This connection is SIMULATION mode
+2022-02-08 11:54:57,763 Account information
+2022-02-08 11:54:57,763 Account list ['5005938101', '6001290303']
+2022-02-08 11:54:58,770 ========== Data received (SATPS*1:32) ==========
+2022-02-08 11:54:58,770 Request message code: 20310000
+2022-02-08 11:54:58,770 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:56:53,023 deposit 
+2022-02-08 11:56:53,420 withdrawable 
+2022-02-08 11:56:53,679 orderable 
+2022-02-08 11:56:56,942 ========== Data received (SATPS*2:33) ==========
+2022-02-08 11:56:56,942 Request message code: 20310000
+2022-02-08 11:56:56,943 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:57:08,817 KODEX 레버리지 25332065
+2022-02-08 11:57:08,818 카카오뱅크 632250
+2022-02-08 11:57:08,818 Portfolio information
+2022-02-08 11:57:44,860 Test initiated...
+2022-02-08 11:57:44,860 This connection is SIMULATION mode
+2022-02-08 11:57:44,861 Account information
+2022-02-08 11:57:44,861 Account list ['5005938101', '6001290303']
+2022-02-08 11:57:44,926 ========== Data received (SATPS*1:34) ==========
+2022-02-08 11:57:44,926 Request message code: 20310000
+2022-02-08 11:57:44,927 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:57:44,927 deposit 474031865
+2022-02-08 11:57:44,927 withdrawable 474031865
+2022-02-08 11:57:44,927 orderable 474031865
+2022-02-08 11:58:31,928 Test initiated...
+2022-02-08 11:58:31,928 This connection is SIMULATION mode
+2022-02-08 11:58:31,928 Account information
+2022-02-08 11:58:31,928 Account list ['5005938101', '6001290303']
+2022-02-08 11:58:32,033 ========== Data received (SATPS*1:36) ==========
+2022-02-08 11:58:32,034 Request message code: 20310000
+2022-02-08 11:58:32,034 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:58:32,034 deposit 474031865
+2022-02-08 11:58:32,034 withdrawable 474031865
+2022-02-08 11:58:32,034 orderable 474031865
+2022-02-08 11:58:42,606 Test initiated...
+2022-02-08 11:58:42,606 This connection is SIMULATION mode
+2022-02-08 11:58:42,607 Account information
+2022-02-08 11:58:42,607 Account list ['5005938101', '6001290303']
+2022-02-08 11:58:42,715 ========== Data received (SATPS*1:38) ==========
+2022-02-08 11:58:42,715 Request message code: 20310000
+2022-02-08 11:58:42,715 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:58:42,715 deposit 474031865
+2022-02-08 11:58:42,716 withdrawable 474031865
+2022-02-08 11:58:42,716 orderable 474031865
+2022-02-08 11:59:17,800 Test initiated...
+2022-02-08 11:59:17,801 This connection is SIMULATION mode
+2022-02-08 11:59:17,801 Account information
+2022-02-08 11:59:17,801 Account list ['5005938101', '6001290303']
+2022-02-08 11:59:19,822 ========== Data received (SATPS*1:39) ==========
+2022-02-08 11:59:19,822 Request message code: 20310000
+2022-02-08 11:59:19,822 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:59:19,822 deposit 
+2022-02-08 11:59:19,823 withdrawable 
+2022-02-08 11:59:19,823 orderable 
+2022-02-08 11:59:19,875 ========== Data received (SATPS*1:40) ==========
+2022-02-08 11:59:19,875 Request message code: 20310000
+2022-02-08 11:59:19,875 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 11:59:19,875 deposit 474031865
+2022-02-08 11:59:19,875 withdrawable 474031865
+2022-02-08 11:59:19,876 orderable 474031865
+2022-02-08 12:01:26,655 Test initiated...
+2022-02-08 12:01:26,656 This connection is SIMULATION mode
+2022-02-08 12:01:26,656 Account information
+2022-02-08 12:01:26,656 Account list ['5005938101', '6001290303']
+2022-02-08 12:01:36,674 ========== Data received (SATPS*1:41) ==========
+2022-02-08 12:01:36,674 Request message code: 20310000
+2022-02-08 12:01:36,674 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:01:36,674 deposit 
+2022-02-08 12:01:36,674 withdrawable 
+2022-02-08 12:01:36,674 orderable 
+2022-02-08 12:01:36,727 ========== Data received (SATPS*1:42) ==========
+2022-02-08 12:01:36,727 Request message code: 20310000
+2022-02-08 12:01:36,727 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:01:36,727 deposit 474031865
+2022-02-08 12:01:36,727 withdrawable 474031865
+2022-02-08 12:01:36,727 orderable 474031865
+2022-02-08 12:21:18,413 Test initiated...
+2022-02-08 12:21:18,414 This connection is SIMULATION mode
+2022-02-08 12:21:18,414 Account information
+2022-02-08 12:21:18,414 Account list ['5005938101', '6001290303']
+2022-02-08 12:21:18,516 ========== Data received (SATPS*1:44) ==========
+2022-02-08 12:21:18,516 Request message code: 20310000
+2022-02-08 12:21:18,516 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:21:18,516 deposit 474031865
+2022-02-08 12:21:18,517 withdrawable 474031865
+2022-02-08 12:21:18,517 orderable 474031865
+2022-02-08 12:21:51,094 Test initiated...
+2022-02-08 12:21:51,095 This connection is SIMULATION mode
+2022-02-08 12:21:51,095 Account information
+2022-02-08 12:21:51,095 Account list ['5005938101', '6001290303']
+2022-02-08 12:21:52,111 ========== Data received (SATPS*1:45) ==========
+2022-02-08 12:21:52,111 Request message code: 20310000
+2022-02-08 12:21:52,111 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:21:52,111 deposit 
+2022-02-08 12:21:52,111 withdrawable 
+2022-02-08 12:21:52,111 orderable 
+2022-02-08 12:21:53,133 ========== Data received (SATPS*1:46) ==========
+2022-02-08 12:21:53,133 Request message code: 20310000
+2022-02-08 12:21:53,133 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:21:53,133 deposit 474031865
+2022-02-08 12:21:53,133 withdrawable 474031865
+2022-02-08 12:21:53,133 orderable 474031865
+2022-02-08 12:22:07,972 Test initiated...
+2022-02-08 12:22:07,972 This connection is SIMULATION mode
+2022-02-08 12:22:07,972 Account information
+2022-02-08 12:22:07,972 Account list ['5005938101', '6001290303']
+2022-02-08 12:22:08,993 ========== Data received (SATPS*1:47) ==========
+2022-02-08 12:22:08,993 Request message code: 20310000
+2022-02-08 12:22:08,993 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:22:08,994 deposit 
+2022-02-08 12:22:08,994 withdrawable 
+2022-02-08 12:22:08,994 orderable 
+2022-02-08 12:22:10,007 ========== Data received (SATPS*1:48) ==========
+2022-02-08 12:22:10,007 Request message code: 20310000
+2022-02-08 12:22:10,007 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:22:10,007 deposit 474031865
+2022-02-08 12:22:10,007 withdrawable 474031865
+2022-02-08 12:22:10,007 orderable 474031865
+2022-02-08 12:22:18,633 Test initiated...
+2022-02-08 12:22:18,633 This connection is SIMULATION mode
+2022-02-08 12:22:18,633 Account information
+2022-02-08 12:22:18,633 Account list ['5005938101', '6001290303']
+2022-02-08 12:22:20,653 ========== Data received (SATPS*1:49) ==========
+2022-02-08 12:22:20,653 Request message code: 20310000
+2022-02-08 12:22:20,653 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:22:20,653 deposit 
+2022-02-08 12:22:20,654 withdrawable 
+2022-02-08 12:22:20,654 orderable 
+2022-02-08 12:22:21,662 ========== Data received (SATPS*1:50) ==========
+2022-02-08 12:22:21,662 Request message code: 20310000
+2022-02-08 12:22:21,662 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:22:21,662 deposit 474031865
+2022-02-08 12:22:21,663 withdrawable 474031865
+2022-02-08 12:22:21,663 orderable 474031865
+2022-02-08 12:22:34,706 Test initiated...
+2022-02-08 12:22:34,706 This connection is SIMULATION mode
+2022-02-08 12:22:34,706 Account information
+2022-02-08 12:22:34,707 Account list ['5005938101', '6001290303']
+2022-02-08 12:22:36,728 ========== Data received (SATPS*1:51) ==========
+2022-02-08 12:22:36,728 Request message code: 20310000
+2022-02-08 12:22:36,729 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:22:36,729 deposit 
+2022-02-08 12:22:36,729 withdrawable 
+2022-02-08 12:22:36,729 orderable 
+2022-02-08 12:22:38,745 ========== Data received (SATPS*1:52) ==========
+2022-02-08 12:22:38,746 Request message code: 20310000
+2022-02-08 12:22:38,746 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:22:38,746 deposit 474031865
+2022-02-08 12:22:38,746 withdrawable 474031865
+2022-02-08 12:22:38,746 orderable 474031865
+2022-02-08 12:23:00,377 Test initiated...
+2022-02-08 12:23:00,378 This connection is SIMULATION mode
+2022-02-08 12:23:00,378 Account information
+2022-02-08 12:23:00,378 Account list ['5005938101', '6001290303']
+2022-02-08 12:23:02,392 ========== Data received (SATPS*1:53) ==========
+2022-02-08 12:23:02,393 Request message code: 20310000
+2022-02-08 12:23:02,393 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:23:02,393 deposit 474031865
+2022-02-08 12:23:02,393 withdrawable 474031865
+2022-02-08 12:23:02,393 orderable 474031865
+2022-02-08 12:23:04,405 ========== Data received (FOJL*2:54) ==========
+2022-02-08 12:23:04,405 Request message code: 20310000
+2022-02-08 12:23:04,405 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:23:04,406 item code 101S3000
+2022-02-08 12:23:04,406 item name F 202203
+2022-02-08 12:23:04,406 trade position +매수
+2022-02-08 12:23:04,406 holding amount 27
+2022-02-08 12:23:04,406 purchase price 370.836
+2022-02-08 12:23:04,406 purchase sum 2503143000
+2022-02-08 12:23:04,406 current price 365.15
+2022-02-08 12:23:04,406 evaluation sum 2464762500
+2022-02-08 12:23:04,407 profit 12825000
+2022-02-08 12:23:35,349 Test initiated...
+2022-02-08 12:23:35,349 This connection is SIMULATION mode
+2022-02-08 12:23:35,350 Account information
+2022-02-08 12:23:35,350 Account list ['5005938101', '6001290303']
+2022-02-08 12:23:39,374 ========== Data received (SATPS*1:56) ==========
+2022-02-08 12:23:39,375 Request message code: 20310000
+2022-02-08 12:23:39,375 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:23:39,375 deposit 474031865
+2022-02-08 12:23:39,375 withdrawable 474031865
+2022-02-08 12:23:39,375 orderable 474031865
+2022-02-08 12:23:41,384 ========== Data received (FOJL*2:57) ==========
+2022-02-08 12:23:41,384 Request message code: 20310000
+2022-02-08 12:23:41,384 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:23:41,384 item code 101S3000
+2022-02-08 12:23:41,384 item name F 202203
+2022-02-08 12:23:41,384 trade position +매수
+2022-02-08 12:23:41,385 holding amount 27
+2022-02-08 12:23:41,385 purchase price 370.836
+2022-02-08 12:23:41,385 purchase sum 2503143000
+2022-02-08 12:23:41,385 current price 365.2
+2022-02-08 12:23:41,385 evaluation sum 2465100000
+2022-02-08 12:23:41,385 profit 13162500
+2022-02-08 12:23:55,181 Test initiated...
+2022-02-08 12:23:55,181 This connection is SIMULATION mode
+2022-02-08 12:23:55,182 Account information
+2022-02-08 12:23:55,182 Account list ['5005938101', '6001290303']
+2022-02-08 12:23:59,208 ========== Data received (SATPS*1:59) ==========
+2022-02-08 12:23:59,208 Request message code: 20310000
+2022-02-08 12:23:59,208 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:23:59,209 deposit 474031865
+2022-02-08 12:23:59,209 withdrawable 474031865
+2022-02-08 12:23:59,209 orderable 474031865
+2022-02-08 12:24:01,218 ========== Data received (FOJL*2:60) ==========
+2022-02-08 12:24:01,218 Request message code: 20310000
+2022-02-08 12:24:01,219 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:24:01,219 item code 101S3000
+2022-02-08 12:24:01,220 item name F 202203
+2022-02-08 12:24:01,220 trade position +매수
+2022-02-08 12:24:01,220 holding amount 27
+2022-02-08 12:24:01,220 purchase price 370.836
+2022-02-08 12:24:01,221 purchase sum 2503143000
+2022-02-08 12:24:01,221 current price 365.3
+2022-02-08 12:24:01,221 evaluation sum 2465775000
+2022-02-08 12:24:01,221 profit 13837500
+2022-02-08 12:24:30,111 Test initiated...
+2022-02-08 12:24:30,112 This connection is SIMULATION mode
+2022-02-08 12:24:30,112 Account information
+2022-02-08 12:24:30,112 Account list ['5005938101', '6001290303']
+2022-02-08 12:24:34,128 ========== Data received (SATPS*1:62) ==========
+2022-02-08 12:24:34,128 Request message code: 20310000
+2022-02-08 12:24:34,128 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:24:34,128 deposit 474031865
+2022-02-08 12:24:34,129 withdrawable 474031865
+2022-02-08 12:24:34,129 orderable 474031865
+2022-02-08 12:24:36,150 ========== Data received (FOJL*2:63) ==========
+2022-02-08 12:24:36,150 Request message code: 20310000
+2022-02-08 12:24:36,151 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:24:36,151 item code 101S3000
+2022-02-08 12:24:36,151 item name F 202203
+2022-02-08 12:24:36,151 trade position +매수
+2022-02-08 12:24:36,151 holding amount 27
+2022-02-08 12:24:36,152 purchase price 370.836
+2022-02-08 12:24:36,152 purchase sum 2503143000
+2022-02-08 12:24:36,152 current price 365.4
+2022-02-08 12:24:36,152 evaluation sum 2466450000
+2022-02-08 12:24:36,152 profit 14512500
+2022-02-08 12:24:36,152 Portfolio information (Futures)
+2022-02-08 12:24:36,154 ========== Data received (SATPS*1:64) ==========
+2022-02-08 12:24:36,154 Request message code: 20310000
+2022-02-08 12:24:36,154 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:24:36,155 deposit 474031865
+2022-02-08 12:24:36,155 withdrawable 474031865
+2022-02-08 12:24:36,155 orderable 474031865
+2022-02-08 12:24:57,668 Test initiated...
+2022-02-08 12:24:57,668 This connection is SIMULATION mode
+2022-02-08 12:24:57,668 Account information
+2022-02-08 12:24:57,669 Account list ['5005938101', '6001290303']
+2022-02-08 12:24:59,726 ========== Data received (SATPS*1:65) ==========
+2022-02-08 12:24:59,726 Request message code: 20310000
+2022-02-08 12:24:59,726 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:24:59,726 deposit 474031865
+2022-02-08 12:24:59,726 withdrawable 474031865
+2022-02-08 12:24:59,726 orderable 474031865
+2022-02-08 12:25:01,736 ========== Data received (FOJL*2:66) ==========
+2022-02-08 12:25:01,736 Request message code: 20310000
+2022-02-08 12:25:01,737 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:25:01,737 item code 101S3000
+2022-02-08 12:25:01,737 item name F 202203
+2022-02-08 12:25:01,737 trade position +매수
+2022-02-08 12:25:01,737 holding amount 27
+2022-02-08 12:25:01,737 purchase price 370.836
+2022-02-08 12:25:01,738 purchase sum 2503143000
+2022-02-08 12:25:01,738 current price 365.4
+2022-02-08 12:25:01,738 evaluation sum 2466450000
+2022-02-08 12:25:01,738 profit 14512500
+2022-02-08 12:25:01,738 Portfolio information (Futures)
+2022-02-08 12:25:01,740 ========== Data received (SATPS*1:67) ==========
+2022-02-08 12:25:01,740 Request message code: 20310000
+2022-02-08 12:25:01,740 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:25:01,740 deposit 474031865
+2022-02-08 12:25:01,740 withdrawable 474031865
+2022-02-08 12:25:01,740 orderable 474031865
+2022-02-08 12:25:13,316 Test initiated...
+2022-02-08 12:25:13,316 This connection is SIMULATION mode
+2022-02-08 12:25:13,316 Account information
+2022-02-08 12:25:13,316 Account list ['5005938101', '6001290303']
+2022-02-08 12:25:13,428 ========== Data received (FOJL*2:69) ==========
+2022-02-08 12:25:13,428 Request message code: 20310000
+2022-02-08 12:25:13,428 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:25:13,429 item code 101S3000
+2022-02-08 12:25:13,429 item name F 202203
+2022-02-08 12:25:13,429 trade position +매수
+2022-02-08 12:25:13,429 holding amount 27
+2022-02-08 12:25:13,429 purchase price 370.836
+2022-02-08 12:25:13,429 purchase sum 2503143000
+2022-02-08 12:25:13,430 current price 365.4
+2022-02-08 12:25:13,430 evaluation sum 2466450000
+2022-02-08 12:25:13,430 profit 14512500
+2022-02-08 12:25:13,430 Portfolio information (Futures)
+2022-02-08 12:25:13,461 ========== Data received (SATPS*1:70) ==========
+2022-02-08 12:25:13,461 Request message code: 20310000
+2022-02-08 12:25:13,461 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:25:13,462 deposit 474031865
+2022-02-08 12:25:13,462 withdrawable 474031865
+2022-02-08 12:25:13,462 orderable 474031865
+2022-02-08 12:25:30,780 Test initiated...
+2022-02-08 12:25:30,780 This connection is SIMULATION mode
+2022-02-08 12:25:30,780 Account information
+2022-02-08 12:25:30,780 Account list ['5005938101', '6001290303']
+2022-02-08 12:25:32,845 ========== Data received (SATPS*1:71) ==========
+2022-02-08 12:25:32,846 Request message code: 20310000
+2022-02-08 12:25:32,846 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:25:32,846 deposit 474031865
+2022-02-08 12:25:32,846 withdrawable 474031865
+2022-02-08 12:25:32,846 orderable 474031865
+2022-02-08 12:25:34,863 ========== Data received (FOJL*2:72) ==========
+2022-02-08 12:25:34,863 Request message code: 20310000
+2022-02-08 12:25:34,863 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:25:34,863 item code 101S3000
+2022-02-08 12:25:34,863 item name F 202203
+2022-02-08 12:25:34,864 trade position +매수
+2022-02-08 12:25:34,864 holding amount 27
+2022-02-08 12:25:34,864 purchase price 370.836
+2022-02-08 12:25:34,864 purchase sum 2503143000
+2022-02-08 12:25:34,864 current price 365.45
+2022-02-08 12:25:34,864 evaluation sum 2466787500
+2022-02-08 12:25:34,864 profit 14850000
+2022-02-08 12:25:34,864 Portfolio information (Futures)
+2022-02-08 12:25:34,866 ========== Data received (SATPS*1:73) ==========
+2022-02-08 12:25:34,866 Request message code: 20310000
+2022-02-08 12:25:34,866 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 12:25:34,866 deposit 474031865
+2022-02-08 12:25:34,866 withdrawable 474031865
+2022-02-08 12:25:34,866 orderable 474031865
+2022-02-08 18:44:50,932 Test initiated...
+2022-02-08 18:44:50,933 This connection is SIMULATION mode
+2022-02-08 18:44:50,933 Account information
+2022-02-08 18:44:50,933 Account list ['5005938101', '6001290303']
+2022-02-08 18:44:53,000 ========== Data received (SATPS*1:74) ==========
+2022-02-08 18:44:53,000 Request message code: 20310000
+2022-02-08 18:44:53,000 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 18:44:53,001 deposit 474031865
+2022-02-08 18:44:53,001 withdrawable 474031865
+2022-02-08 18:44:53,001 orderable 474031865
+2022-02-08 18:44:55,014 ========== Data received (FOJL*2:75) ==========
+2022-02-08 18:44:55,014 Request message code: 20310000
+2022-02-08 18:44:55,014 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 18:44:55,015 item code 101S3000
+2022-02-08 18:44:55,015 item name F 202203
+2022-02-08 18:44:55,015 trade position +매수
+2022-02-08 18:44:55,015 holding amount 27
+2022-02-08 18:44:55,015 purchase price 370.836
+2022-02-08 18:44:55,015 purchase sum 2503143000
+2022-02-08 18:44:55,015 current price 363.2
+2022-02-08 18:44:55,015 evaluation sum 2451600000
+2022-02-08 18:44:55,015 profit -337500
+2022-02-08 18:44:55,015 Portfolio information (Futures)
+2022-02-08 18:44:55,017 ========== Data received (SATPS*1:76) ==========
+2022-02-08 18:44:55,017 Request message code: 20310000
+2022-02-08 18:44:55,017 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 18:44:55,017 deposit 474031865
+2022-02-08 18:44:55,017 withdrawable 474031865
+2022-02-08 18:44:55,017 orderable 474031865
+2022-02-08 18:46:40,329 Test initiated...
+2022-02-08 18:46:40,329 This connection is SIMULATION mode
+2022-02-08 18:46:40,329 Account information
+2022-02-08 18:46:40,329 Account list ['5005938101', '6001290303']
+2022-02-08 18:46:40,388 ========== Data received (SATPS*2:77) ==========
+2022-02-08 18:46:40,388 Request message code: 20310000
+2022-02-08 18:46:40,389 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 18:46:40,389 item code 122630
+2022-02-08 18:46:40,389 item name KODEX 레버리지
+2022-02-08 18:46:40,389 current price 20215
+2022-02-08 18:46:40,389 purchase price 21110.054
+2022-02-08 18:46:40,389 holding amount 1200
+2022-02-08 18:46:40,389 purchase sum 25332065
+2022-02-08 18:46:40,390 evaluation sum 24258000
+2022-02-08 18:46:40,390 profit -1074065
+2022-02-08 18:46:40,390 profit rate -4.24
+2022-02-08 18:46:40,390 item code 323410
+2022-02-08 18:46:40,390 item name 카카오뱅크
+2022-02-08 18:46:40,390 current price 44650
+2022-02-08 18:46:40,390 purchase price 42150.0
+2022-02-08 18:46:40,390 holding amount 15
+2022-02-08 18:46:40,390 purchase sum 632250
+2022-02-08 18:46:40,391 evaluation sum 669750
+2022-02-08 18:46:40,391 profit 37500
+2022-02-08 18:46:40,391 profit rate 5.93
+2022-02-08 18:46:40,391 Portfolio information
+2022-02-08 18:46:54,539 Test initiated...
+2022-02-08 18:46:54,539 This connection is SIMULATION mode
+2022-02-08 18:46:54,539 Account information
+2022-02-08 18:46:54,539 Account list ['5005938101', '6001290303']
+2022-02-08 18:46:54,598 ========== Data received (SATPS*2:78) ==========
+2022-02-08 18:46:54,598 Request message code: 20310000
+2022-02-08 18:46:54,598 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-02-08 18:46:54,598 item code 122630
+2022-02-08 18:46:54,599 item name KODEX 레버리지
+2022-02-08 18:46:54,599 current price 20215
+2022-02-08 18:46:54,599 purchase price 21110.054
+2022-02-08 18:46:54,599 holding amount 1200
+2022-02-08 18:46:54,599 purchase sum 25332065
+2022-02-08 18:46:54,599 evaluation sum 24258000
+2022-02-08 18:46:54,599 profit -1074065
+2022-02-08 18:46:54,599 profit rate -4.24
+2022-02-08 18:46:54,599 ------------------------------------------------
+2022-02-08 18:46:54,600 item code 323410
+2022-02-08 18:46:54,600 item name 카카오뱅크
+2022-02-08 18:46:54,600 current price 44650
+2022-02-08 18:46:54,600 purchase price 42150.0
+2022-02-08 18:46:54,600 holding amount 15
+2022-02-08 18:46:54,600 purchase sum 632250
+2022-02-08 18:46:54,600 evaluation sum 669750
+2022-02-08 18:46:54,600 profit 37500
+2022-02-08 18:46:54,600 profit rate 5.93
+2022-02-08 18:46:54,600 ------------------------------------------------
+2022-02-08 18:46:54,600 Portfolio information

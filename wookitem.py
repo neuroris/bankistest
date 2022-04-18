@@ -199,9 +199,9 @@ class Episode(Order):
         self.episode_count = 0
         self.episode_number = ''
         self.symbol = symbol
-        self.completed = False
 
-    def normalize_number(self, number):
+    @classmethod
+    def normalize_number(cls, number):
         number = str(number)
         if len(number) == 1:
             number = '00' + number
@@ -209,20 +209,30 @@ class Episode(Order):
             number = '0' + number
         return number
 
+    @classmethod
+    def previous_number(cls, episode_number):
+        symbol = episode_number[-1]
+        episode_count = int(episode_number[:-1])
+        previous_episode_number = Episode.normalize_number(episode_count - 1) + symbol
+        return previous_episode_number
+
     def get_episode_count(self):
         if self.episode_number:
             return int(self.episode_number[:-1])
         else:
             return 0
 
-    def get_episode_number(self, count=0):
-        episode_count = count if count else self.episode_count
+    def get_episode_number(self, count=None):
+        episode_count = self.episode_count
+        if count is not None:
+            episode_count = count
         normalized_count = self.normalize_number(episode_count)
         episode_number = normalized_count + self.symbol
         return episode_number
 
-    def set_episode_number(self, symbol):
-        self.episode_number = self.get_episode_number() + symbol
+    def set_episode_number(self, symbol=''):
+        self.symbol = symbol
+        self.episode_number = self.get_episode_number()
 
     def get_previous_episode_number(self):
         previous_episode_number = self.get_episode_number(self.get_episode_count() - 1)
@@ -246,9 +256,12 @@ class Episode(Order):
 
     def next_episode(self, symbol=''):
         self.symbol = symbol
+        self.open_amount = 0 if self.open_amount < 0 else self.open_amount
         new_episode = Episode()
+        new_episode.item_name = self.item_name
         new_episode.order_amount = self.open_amount
         new_episode.open_amount = self.open_amount
+        new_episode.virtual_open_amount = self.virtual_open_amount
         new_episode.episode_count = self.episode_count + 1
         new_episode.set_episode_number(symbol)
         self.order_amount -= self.open_amount
@@ -452,14 +465,12 @@ class AlgorithmItem(Order, WookLog):
     def correct_purchases(self, price):
         purchases = copy.deepcopy(self.purchases)
         self.purchases.clear()
-
         for order in purchases.values():
             self.broker.correct(order, price)
 
     def correct_sales(self, price):
         sales = copy.deepcopy(self.sales)
         self.sales.clear()
-
         for order in sales.values():
             self.broker.correct(order, price)
 
@@ -610,9 +621,9 @@ class FuturesAlgorithmItem(Order, WookLog):
         order.current_tax = 0
         order.current_net_profit = 0
         for individual_contract in contracts:
-            self.post_green('(DEBUG1)', 'Purchase price', individual_contract.executed_price_avg,
-                            'Holding', individual_contract.holding_amount,
-                            'Purchase sum', individual_contract.purchase_sum)
+            # self.post_green('(DEBUG1)', 'Purchase price', individual_contract.executed_price_avg,
+            #                 'Holding', individual_contract.holding_amount,
+            #                 'Purchase sum', individual_contract.purchase_sum)
 
             if abs(individual_contract.holding_amount) <= abs(working_order.executed_amount):
                 contract = self.pop_contract()
@@ -627,13 +638,6 @@ class FuturesAlgorithmItem(Order, WookLog):
                 contract.purchase_sum -= purchase_sum
                 contract.evaluation_sum = int(order.current_price * abs(contract.holding_amount) * MULTIPLIER)
                 working_order.executed_amount = 0
-                # contract = self.contracts[0]
-                # contract.holding_amount += working_order.executed_amount
-                # contract.purchase_sum -= int(abs(working_order.executed_amount) * order.executed_price_avg * MULTIPLIER)
-                # contract.evaluation_sum = int(order.current_price * abs(contract.holding_amount) * MULTIPLIER)
-                # evaluation_sum = int(abs(working_order.executed_amount) * order.executed_price_avg * MULTIPLIER)
-                # purchase_sum = int(abs(working_order.executed_amount) * contract.executed_price_avg * MULTIPLIER)
-                # working_order.executed_amount = 0
 
             purchase_fee = purchase_sum * self.futures_fee_ratio
             evaluation_fee = evaluation_sum * self.futures_fee_ratio
@@ -651,13 +655,13 @@ class FuturesAlgorithmItem(Order, WookLog):
             order.tax += tax
             order.net_profit += profit - total_fee - tax
 
-            self.post_green('(DEBUG2)', 'Purchase', contract.executed_price_avg,
-                            'Executed', order.executed_price_avg,
-                            'Amount', contract.holding_amount,
-                            'Evaluation', evaluation_sum,
-                            'Purchase', purchase_sum,
-                            'CPurchse sum', contract.purchase_sum,
-                            'Profit', profit, 'Net Profit', order.net_profit)
+            # self.post_green('(DEBUG2)', 'Purchase', contract.executed_price_avg,
+            #                 'Executed', order.executed_price_avg,
+            #                 'Amount', contract.holding_amount,
+            #                 'Evaluation', evaluation_sum,
+            #                 'Purchase', purchase_sum,
+            #                 'CPurchse sum', contract.purchase_sum,
+            #                 'Profit', profit, 'Net Profit', order.net_profit)
 
             if not working_order.executed_amount:
                 break
@@ -728,14 +732,26 @@ class FuturesAlgorithmItem(Order, WookLog):
             self.profit_rate = round(self.profit / self.purchase_sum * 100, 2)
 
     def update_orders(self, order):
-        if order.order_position in (PURCHASE, CORRECT_PURCHASE):
+        if order.order_position == PURCHASE and order.order_state == RECEIPT:
             self.purchases[order.order_number] = order
-            if not order.open_amount:
-                del self.purchases[order.order_number]
-        elif order.order_position in (SELL, CORRECT_SELL):
+        elif order.order_position == SELL and order.order_state == RECEIPT:
             self.sales[order.order_number] = order
-            if not order.open_amount:
+        elif order.order_position in PURCHASE_EQUIVALENT and order.order_state == ORDER_EXECUTED:
+            self.purchases[order.order_number] = order
+            if order.open_amount <= 0:
+                del self.purchases[order.order_number]
+        elif order.order_position in SELL_EQUIVALENT and order.order_state == ORDER_EXECUTED:
+            self.sales[order.order_number] = order
+            if order.open_amount <= 0:
                 del self.sales[order.order_number]
+        elif order.order_position in CORRECT_PURCHASE and order.order_state == CONFIRMED:
+            self.purchases[order.order_number] = order
+            if order.original_order_number in self.purchases:
+                del self.purchases[order.original_order_number]
+        elif order.order_position in CORRECT_SELL and order.order_state == CONFIRMED:
+            self.sales[order.order_number] = order
+            if order.original_order_number in self.sales:
+                del self.sales[order.original_order_number]
         elif order.order_position == CANCEL_PURCHASE and order.order_state == CONFIRMED:
             if order.original_order_number in self.purchases:
                 del self.purchases[order.original_order_number]
@@ -770,12 +786,22 @@ class FuturesAlgorithmItem(Order, WookLog):
 
     def correct_purchases(self, price):
         purchases = copy.deepcopy(self.purchases)
+        for order in purchases.values():
+            self.broker.correct(order, price)
+
+    def correct_sales(self, price):
+        sales = copy.deepcopy(self.sales)
+        for order in sales.values():
+            self.broker.correct(order, price)
+
+    def correct_purchases_deprecated(self, price):
+        purchases = copy.deepcopy(self.purchases)
         self.purchases.clear()
 
         for order in purchases.values():
             self.broker.correct(order, price)
 
-    def correct_sales(self, price):
+    def correct_sales_deprecated(self, price):
         sales = copy.deepcopy(self.sales)
         self.sales.clear()
 
@@ -785,40 +811,253 @@ class FuturesAlgorithmItem(Order, WookLog):
     def cancel(self, order):
         self.broker.cancel(order)
 
-    def cancel_purchases(self):
+    def cancel_purchase(self, order_number):
+        self.post_cyan('@ ================ Cancel order ({}) ================='.format(order_number))
+        if order_number in self.purchases:
+            self.cancel(self.purchases[order_number])
+        else:
+            self.post_cyan('@ =================== no order number ===================')
+
+    def cancel_sale(self, order_number):
+        self.post_cyan('@ ================ Cancel order ({}) ================='.format(order_number))
+        if order_number in self.sales:
+            self.cancel(self.sales[order_number])
+        else:
+            self.post_cyan('@ =================== no order number ===================')
+
+    def cancel_purchase_deprecated(self, order_number):
         for order in self.purchases.values():
-            if order.open_amount:
-                self.post_green('&&&&&&&&&&&&&&&&& before cancel purchase &&&&&&&&&&&&&&&&&&&&')
+            if order.order_number == order_number:
+                self.post_cyan('@ ================ Cancel order ({}) ================='.format(order_number))
                 self.cancel(order)
-                self.post_green('&&&&&&&&&&&&&&&&& after cancel purchase &&&&&&&&&&&&&&&&&&&&')
+                return
+
+    def cancel_sale_deprecated(self, order_number):
+        for order in self.sales.values():
+            if order.order_number == order_number:
+                self.post_cyan('@ ================ Cancel order ({}) ================='.format(order_number))
+                self.cancel(order)
+                return
+
+    def cancel_smallest_open_purchase(self, cancel_amount):
+        cancel_order = None
+        for order in self.purchases.values():
+            if order.open_amount <= cancel_amount:
+                cancel_order = order
+                cancel_amount = order.open_amount
+
+        if cancel_order:
+            self.cancel(cancel_order)
+
+    def cancel_smallest_open_sale(self, cancel_amount):
+        cancel_order = None
+        for order in self.sales.values():
+            if order.open_amount <= cancel_amount:
+                cancel_order = order
+                cancel_amount = order.open_amount
+
+        if cancel_order:
+            self.cancel(cancel_order)
+
+    def cancel_purchases(self):
+        purchases_list = list(self.purchases)
+        for order_number in purchases_list:
+            order = self.purchases[order_number]
+            if order.open_amount:
+                self.cancel(order)
 
     def cancel_sales(self):
+        sales_list = list(self.sales)
+        for order_number in sales_list:
+            order = self.sales[order_number]
+            if order.open_amount:
+                self.cancel(order)
+
+    def cancel_purchases_deprecated(self):
+        for order in self.purchases.values():
+            if order.open_amount:
+                self.cancel(order)
+
+    def cancel_sales_deprecated(self):
         for order in self.sales.values():
             if order.open_amount:
-                self.post_green('&&&&&&&&&&&&&&&&& before cancel sale &&&&&&&&&&&&&&&&&&&&')
                 self.cancel(order)
-                self.post_green('&&&&&&&&&&&&&&&&& after cancel sale &&&&&&&&&&&&&&&&&&&&')
+
+    def cancel_purchases_by(self, amount):
+        pass
 
     def get_ordered_purchases(self):
         order_amount = 0
-        for order in self.purchases.values():
+        purchases = copy.deepcopy(self.purchases)
+        for order in purchases.values():
             order_amount += order.order_amount
         return order_amount
 
     def get_ordered_sales(self):
         order_amount = 0
-        for order in self.sales.values():
+        sales = copy.deepcopy(self.sales)
+        for order in sales.values():
             order_amount += order.order_amount
         return order_amount
 
+    def get_open_amount(self):
+        open_purchase_amount = self.get_open_purchases()
+        open_sale_amount = self.get_open_sales()
+        open_amount = open_purchase_amount + open_sale_amount
+        return open_amount
+
     def get_open_purchases(self):
         open_amount = 0
-        for order in self.purchases.values():
+        purchases = copy.deepcopy(self.purchases)
+        for order in purchases.values():
             open_amount += order.open_amount
         return open_amount
 
     def get_open_sales(self):
         open_amount = 0
-        for order in self.sales.values():
+        sales = copy.deepcopy(self.sales)
+        for order in sales.values():
             open_amount += order.open_amount
         return open_amount
+
+class OrderStatus:
+    def __init__(self):
+        self.holding_amount = 0
+        self.purchases = dict()
+        self.sales = dict()
+        self.count = 0
+        self.execution = None
+        self.purchase_episode_changed = False
+        self.sale_episode_changed = False
+        self.purchase_episode_number = ''
+        self.sale_episode_number = ''
+
+class Timeline(WookLog):
+    def __init__(self, algorithm, log):
+        WookLog.custom_init(self, log)
+        self.log = log
+        self.xlim = 1150
+        self.xlim_correction = 0
+        self.order_status = list()
+        self.algorithm = algorithm
+        self.long_episode = algorithm.long_episode
+        self.short_episode = algorithm.short_episode
+        self.changed = True
+
+        # Initial status
+        initial_status = OrderStatus()
+        self.order_status.append(initial_status)
+
+    def update(self, order):
+        if order.order_position == CORRECT_PURCHASE:
+            if order.order_state == RECEIPT:
+                return
+            elif order.order_state == CONFIRMED:
+                self.purchase_correction(order)
+                return
+        elif order.order_position == CORRECT_SELL:
+            if order.order_state == RECEIPT:
+                return
+            elif order.order_state == CONFIRMED:
+                self.sale_correction(order)
+                return
+
+        if order.order_position == PURCHASE and order.order_state == RECEIPT:
+            self.purchase_receipt(order)
+        elif order.order_position == SELL and order.order_state == RECEIPT:
+            self.sale_receipt(order)
+        elif order.executed_amount > 0:
+            self.purchase_execution(order)
+        elif order.executed_amount < 0:
+            self.sale_execution(order)
+
+        if self.algorithm.pause_timeline:
+            return
+
+        self.changed = True
+        self.algorithm.display.register_timeline()
+        self.algorithm.display.start()
+        # self.post()
+
+    def purchase_correction(self, order):
+        status = self.order_status[-1]
+        status.purchases[order.order_number] = order
+        if order.original_order_number in status.purchases:
+            del status.purchases[order.original_order_number]
+
+    def sale_correction(self, order):
+        status = self.order_status[-1]
+        status.sales[order.order_number] = order
+        if order.original_order_number in status.sales:
+            del status.sales[order.original_order_number]
+
+    def purchase_receipt(self, order):
+        status = self.order_status[-1]
+        status.purchases[order.order_number] = order
+        self.clear_fills()
+
+        if len(self.order_status) == 1:
+            status.execution = PURCHASE
+
+    def sale_receipt(self, order):
+        status = self.order_status[-1]
+        status.sales[order.order_number] = order
+        self.clear_fills()
+
+    def purchase_execution(self, order):
+        status = self.next_status()
+        status.purchases[order.order_number] = order
+        status.holding_amount += order.executed_amount
+        status.execution = PURCHASE
+
+    def sale_execution(self, order):
+        status = self.next_status()
+        status.sales[order.order_number] = order
+        status.holding_amount += order.executed_amount
+        status.execution = SELL
+
+    def next_status(self):
+        previous_status = self.order_status[-1]
+        status = copy.deepcopy(previous_status)
+        status.purchase_episode_changed = False
+        status.sale_episode_changed = False
+        status.count += 1
+        self.order_status.append(status)
+        self.clear_fills()
+        return status
+
+    def clear_purchase_fills(self):
+        if self.long_episode != self.algorithm.long_episode:
+            self.long_episode = self.algorithm.long_episode
+            status = self.order_status[-1]
+            status.purchase_episode_changed = True
+            status.purchase_episode_number = self.long_episode.episode_number
+            sales_list = list(status.purchases)
+            for order_number in sales_list:
+                if status.purchases[order_number].open_amount <= 0:
+                    del status.purchases[order_number]
+
+    def clear_sale_fills(self):
+        if self.short_episode != self.algorithm.short_episode:
+            self.short_episode = self.algorithm.short_episode
+            status = self.order_status[-1]
+            status.sale_episode_changed = True
+            status.sale_episode_number = self.short_episode.episode_number
+            sales_list = list(status.sales)
+            for order_number in sales_list:
+                if status.sales[order_number].open_amount <= 0:
+                    del status.sales[order_number]
+
+    def clear_fills(self):
+        self.clear_purchase_fills()
+        self.clear_sale_fills()
+
+    def post(self):
+        status = self.order_status[-1]
+        self.debug('status count', status.count)
+        for order_number, order in status.sales.items():
+            self.debug('sales    ', order_number, order.executed_amount_sum, order.order_amount,
+                       order.order_number, order.original_order_number)
+        for order_number, order in status.purchases.items():
+            self.debug('purchases', order_number, order.executed_amount_sum, order.order_amount,
+                       order.order_number, order.original_order_number)

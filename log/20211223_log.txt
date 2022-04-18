@@ -1,0 +1,16 @@
+2021-12-23 16:55:22,260 Test initiated...
+2021-12-23 16:55:22,260 This is REAL mode
+2021-12-23 16:55:22,260 Failed to get account information
+2021-12-23 16:56:56,518 Test initiated...
+2021-12-23 16:56:56,518 This is REAL mode
+2021-12-23 17:02:33,248 Failed to get account information
+2021-12-23 17:04:49,050 Test initiated...
+2021-12-23 17:04:49,051 This is REAL mode
+2021-12-23 17:04:49,051 Failed to get account information
+2021-12-23 17:04:49,051 Account list []
+2021-12-23 17:05:21,130 Test initiated...
+2021-12-23 17:05:21,130 This is REAL mode
+2021-12-23 17:05:21,130 Failed to get account information
+2021-12-23 17:05:42,844 Test initiated...
+2021-12-23 17:05:42,844 This is REAL mode
+2021-12-23 17:05:42,844 Failed to get account information

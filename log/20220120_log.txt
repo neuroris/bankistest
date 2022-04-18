@@ -1,0 +1,107 @@
+2022-01-20 17:39:08,468 Test initiated...
+2022-01-20 17:39:08,468 This connection is SIMULATION mode
+2022-01-20 17:39:08,468 Account information
+2022-01-20 17:39:08,468 Account list ['5005938101', '6001290303']
+2022-01-20 17:39:08,498 ========== Data received (PIF05010500:4) ==========
+2022-01-20 17:39:08,498 Request message code: MCA00000
+2022-01-20 17:39:08,498 Request message: 정상처리 되었습니다. ()
+2022-01-20 17:39:08,511 ========== Data received (PIF05010500:5) ==========
+2022-01-20 17:39:08,512 Request message code: MCA00000
+2022-01-20 17:39:08,512 Request message: 정상처리 되었습니다. ()
+2022-01-20 17:39:08,525 ========== Data received (PIF05010500:6) ==========
+2022-01-20 17:39:08,525 Request message code: MCA00000
+2022-01-20 17:39:08,525 Request message: 정상처리 되었습니다. ()
+2022-01-20 17:39:08,531 ========== Data received (SATPS:3) ==========
+2022-01-20 17:39:08,531 Request message code: 20310000
+2022-01-20 17:39:08,531 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-01-20 17:39:08,531 deposit 500000000
+2022-01-20 17:39:08,531 withdrawable 500000000
+2022-01-20 17:39:08,532 orderable 500000000
+2022-01-20 17:39:08,538 ========== Data received (PIF05010500:7) ==========
+2022-01-20 17:39:08,538 Request message code: MCA00000
+2022-01-20 17:39:08,538 Request message: 정상처리 되었습니다. ()
+2022-01-20 17:39:08,550 ========== Data received (PIF05010500:8) ==========
+2022-01-20 17:39:08,550 Request message code: MCA00000
+2022-01-20 17:39:08,550 Request message: 정상처리 되었습니다. ()
+2022-01-20 17:39:08,570 ========== Data received (PIF05010500:9) ==========
+2022-01-20 17:39:08,570 Request message code: MCA00000
+2022-01-20 17:39:08,570 Request message: 정상처리 되었습니다. ()
+2022-01-20 17:39:08,585 ========== Data received (PIF05010500:10) ==========
+2022-01-20 17:39:08,585 Request message code: MCA00000
+2022-01-20 17:39:08,585 Request message: 정상처리 되었습니다. ()
+2022-01-20 17:39:08,606 ========== Data received (PIF05010500:11) ==========
+2022-01-20 17:39:08,607 Request message code: MCA00000
+2022-01-20 17:39:08,607 Request message: 정상처리 되었습니다. ()
+2022-01-20 17:39:08,621 ========== Data received (PIF05010500:12) ==========
+2022-01-20 17:39:08,621 Request message code: MCA00000
+2022-01-20 17:39:08,621 Request message: 정상처리 되었습니다. ()
+2022-01-20 17:39:08,636 ========== Data received (PIF05010500:13) ==========
+2022-01-20 17:39:08,636 Request message code: MCA00000
+2022-01-20 17:39:08,636 Request message: 정상처리 되었습니다. ()
+2022-01-20 17:39:08,650 ========== Data received (PIF05010500:14) ==========
+2022-01-20 17:39:08,650 Request message code: MCA00000
+2022-01-20 17:39:08,651 Request message: 정상처리 되었습니다. ()
+2022-01-20 17:39:08,665 ========== Data received (PIF05010500:15) ==========
+2022-01-20 17:39:08,665 Request message code: MCA00000
+2022-01-20 17:39:08,665 Request message: 정상처리 되었습니다. ()
+2022-01-20 17:39:08,683 ========== Data received (PIF05010500:16) ==========
+2022-01-20 17:39:08,683 Request message code: MCA00000
+2022-01-20 17:39:08,683 Request message: 정상처리 되었습니다. ()
+2022-01-20 17:39:08,702 ========== Data received (PIF05010500:17) ==========
+2022-01-20 17:39:08,702 Request message code: MCA00000
+2022-01-20 17:39:08,702 Request message: 정상처리 되었습니다. ()
+2022-01-20 20:11:52,005 Test initiated...
+2022-01-20 20:11:52,005 This connection is SIMULATION mode
+2022-01-20 20:11:52,005 Account information
+2022-01-20 20:11:52,006 Account list ['5005938101', '6001290303']
+2022-01-20 20:11:52,047 ========== Data received (PUP02100200:19) ==========
+2022-01-20 20:11:52,047 Request message code: MCA00000
+2022-01-20 20:11:52,048 Request message: 정상처리 되었습니다. ()
+2022-01-20 20:12:13,890 Test initiated...
+2022-01-20 20:12:13,891 This connection is SIMULATION mode
+2022-01-20 20:12:13,891 Account information
+2022-01-20 20:12:13,891 Account list ['5005938101', '6001290303']
+2022-01-20 20:12:13,932 ========== Data received (PUP02100200:21) ==========
+2022-01-20 20:12:13,932 Request message code: MCA00000
+2022-01-20 20:12:13,933 Request message: 정상처리 되었습니다. ()
+2022-01-20 20:12:54,572 Test initiated...
+2022-01-20 20:12:54,572 This connection is SIMULATION mode
+2022-01-20 20:12:54,573 Account information
+2022-01-20 20:12:54,573 Account list ['5005938101', '6001290303']
+2022-01-20 20:12:54,602 ========== Data received (PUP02100200:23) ==========
+2022-01-20 20:12:54,602 Request message code: MCA00000
+2022-01-20 20:12:54,602 Request message: 정상처리 되었습니다. ()
+2022-01-20 20:14:09,569 ========== Data received (SATPS:22) ==========
+2022-01-20 20:14:09,569 Request message code: 20310000
+2022-01-20 20:14:09,569 Request message: 모의투자 조회가 완료되었습니다. ()
+2022-01-20 20:14:09,570 deposit 500000000
+2022-01-20 20:14:09,570 withdrawable 500000000
+2022-01-20 20:14:09,570 orderable 500000000
+2022-01-20 20:15:46,250 Test initiated...
+2022-01-20 20:15:46,251 This connection is SIMULATION mode
+2022-01-20 20:15:46,251 Account information
+2022-01-20 20:15:46,252 Account list ['5005938101', '6001290303']
+2022-01-20 20:15:46,284 ========== Data received (PUP02100200:25) ==========
+2022-01-20 20:15:46,285 Request message code: MCA00000
+2022-01-20 20:15:46,285 Request message: 정상처리 되었습니다. ()
+2022-01-20 20:16:24,381 Test initiated...
+2022-01-20 20:16:24,381 This connection is SIMULATION mode
+2022-01-20 20:16:24,382 Account information
+2022-01-20 20:16:24,382 Account list ['5005938101', '6001290303']
+2022-01-20 20:16:24,417 ========== Data received (PUP02100200:27) ==========
+2022-01-20 20:16:24,417 Request message code: MCA00000
+2022-01-20 20:16:24,417 Request message: 정상처리 되었습니다. ()
+2022-01-20 20:22:58,960 Test initiated...
+2022-01-20 20:22:58,961 This connection is SIMULATION mode
+2022-01-20 20:22:58,961 Account information
+2022-01-20 20:22:58,961 Account list ['5005938101', '6001290303']
+2022-01-20 20:22:59,003 ========== Data received (PST01010300:29) ==========
+2022-01-20 20:22:59,004 Request message code: MCA00000
+2022-01-20 20:22:59,004 Request message: 정상처리 되었습니다. ()
+2022-01-20 20:30:57,295 Test initiated...
+2022-01-20 20:30:57,295 This connection is SIMULATION mode
+2022-01-20 20:30:57,296 Account information
+2022-01-20 20:30:57,296 Account list ['5005938101', '6001290303']
+2022-01-20 20:30:57,331 ========== Data received (PUP02100200:31) ==========
+2022-01-20 20:30:57,332 Request message code: MCA00000
+2022-01-20 20:30:57,332 Request message: 정상처리 되었습니다. ()

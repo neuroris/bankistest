@@ -7,7 +7,7 @@ from mplfinance.original_flavor import candlestick2_ohlc
 from datetime import datetime
 from traderbase import TraderBase
 from bankis import Bankis
-# from kiwoom import Kiwoom
+# # from kiwoom import Kiwoom
 # from wookalgorithm.quantumjump.algorithm1 import QAlgorithm1
 # from wookalgorithm.quantumjump.algorithm2 import QAlgorithm2
 # from wookalgorithm.quantumjump.algorithm4 import QAlgorithm4
@@ -27,7 +27,7 @@ from bankis import Bankis
 # from wookalgorithm.futures.algorithm6 import FMAlgorithm6
 # from wookalgorithm.futures.algorithm7 import FMAlgorithm7
 # from wookalgorithm.futures.algorithm8 import FMAlgorithm8
-# from wookalgorithm.futures.algorithm9 import FMAlgorithm9
+from wookalgorithm.futures.algorithm9 import FMAlgorithm9
 from wookutil import ChartDrawer
 from wookitem import Item, FuturesItem, Order
 from wookdata import *
@@ -38,9 +38,10 @@ class Trader(TraderBase):
         # self.broker = Kiwoom(self, log, key)
         self.broker = Bankis(self, log, key)
         # self.algorithm = FMAlgorithm9(self, log)
-        # self.general_account_index = 1
-        # self.futures_account_index = 0
+        self.general_account_index = 1
+        self.futures_account_index = 0
         # super().__init__(log)
+
 
         # Initial work
         # self.connect_broker()
@@ -60,6 +61,7 @@ class Trader(TraderBase):
 
         # Test setup
         # self.cbb_item_name.setCurrentIndex(3)
+        self.opening = False
 
     def test1(self):
         self.debug('test1 button clicked')
@@ -74,6 +76,11 @@ class Trader(TraderBase):
         # self.algorithm.resume_trading()
 
         self.algorithm.initiate_order()
+
+    def portfolio_acquired(self):
+        if self.opening:
+            self.opening = False
+            self.broker.settle_up()
 
     def connect_broker(self):
         # if self.cb_auto_login.isChecked():
@@ -333,6 +340,8 @@ class Trader(TraderBase):
         self.lb_net_profit.setText(net_profit_display)
 
     def process_past_chart_prices(self, item_code, chart_prices):
+        return
+
         if self.algorithm.is_running:
             self.algorithm.process_past_chart_prices(item_code, chart_prices)
             return

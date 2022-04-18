@@ -1,0 +1,6 @@
+2022-04-09 10:03:57,187 Test initiated...
+2022-04-09 10:03:57,187 This connection is SIMULATION mode
+2022-04-09 10:03:57,187 Failed to get account information
+2022-04-09 10:04:18,216 Test initiated...
+2022-04-09 10:04:18,216 This connection is SIMULATION mode
+2022-04-09 10:04:18,216 Failed to get account information

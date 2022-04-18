@@ -1,4 +1,4 @@
-from PyQt5.QtWidgets import QTableWidgetItem
+from PyQt5.QtWidgets import QTableWidgetItem, QApplication
 from PyQt5.QtCore import Qt, QThread
 from Cryptodome import Random
 from Cryptodome.Cipher import AES
@@ -116,19 +116,60 @@ class WookTimer(QThread):
             time.sleep(1)
         self.event_loop.exit()
 
-class WookThreadCollector(QThread, WookLog):
-    def __init__(self, kiwoom, log):
+class Display(QThread, WookLog):
+    def __init__(self, algorithm, log, display_chart, display_timeline):
         super().__init__()
         WookLog.custom_init(self, log)
-        self.kiwoom = kiwoom
+        self.algorithm = algorithm
+        self.display_chart = display_chart
+        self.display_timeline = display_timeline
+        self.first_work = None
+        self.second_work = None
+        self.current_work = None
+        self.displaying = False
+        self.count = 0
+
+    def post_magenta(self, *args):
+        self.debug('\033[95m', *args, '\033[97m')
+
+    def lock(self):
+        self.displaying = True
+
+    def unlock(self):
+        self.displaying = False
+
+    def register(self, work):
+        if self.second_work:
+            if self.second_work != work:
+                self.first_work = self.second_work
+                self.second_work = work
+        elif self.first_work:
+            if self.first_work != work:
+                self.second_work = work
+        else:
+            self.first_work = work
+
+    def register_chart(self):
+        self.register(self.display_chart)
+
+    def register_timeline(self):
+        self.register(self.display_timeline)
 
     def run(self):
-        while True:
-            time.sleep(30)
-            self.debug('~~~~~~~~~~ Inspecting threads ~~~~~~~~~~')
-            if self.kiwoom.portfolio_requester.isRunning():
-                self.debug('Portfolio requester is running. Collecting threads...')
-                self.kiwoom.portfolio_requester.quit()
+        while self.first_work:
+            if not self.displaying:
+                self.current_work = self.first_work
+                if self.second_work:
+                    self.first_work = self.second_work
+                    self.second_work = None
+                else:
+                    self.first_work = None
+                self.current_work()
+                self.current_work = None
+            else:
+                self.count += 1
+                QApplication.processEvents()
+                time.sleep(0.3)
 
 class ChartDrawer(QThread):
     def __init__(self, display_chart=None):

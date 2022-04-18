@@ -1,0 +1,3 @@
+2022-04-14 09:39:48,999 Test initiated...
+2022-04-14 09:39:49,002 This is REAL mode
+2022-04-14 09:39:49,002 Failed to get account information

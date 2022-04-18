@@ -2,7 +2,6 @@ from PyQt5.QtWidgets import QApplication
 import argparse
 import logging
 import sys, time
-from bankis import Bankis
 from trader import Trader
 
 if __name__ == '__main__':

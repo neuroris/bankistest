@@ -1,0 +1,6 @@
+2021-10-21 17:21:23,792 Test initiated...
+2021-10-21 17:21:23,792 This is REAL mode
+2021-10-21 17:21:23,793 Failed to get account information
+2021-10-21 17:21:35,644 Test initiated...
+2021-10-21 17:21:35,645 This is REAL mode
+2021-10-21 17:21:35,645 Failed to get account information
