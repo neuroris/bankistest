@@ -1,0 +1,8 @@
+2022-05-06 10:03:38,637 Test initiated...
+2022-05-06 10:03:38,637 This connection is SIMULATION mode
+2022-05-06 10:03:38,637 Account information
+2022-05-06 10:03:38,637 Account list ['5006419901', '6001412503']
+2022-05-06 10:14:46,683 Test initiated...
+2022-05-06 10:14:46,683 This connection is SIMULATION mode
+2022-05-06 10:14:46,684 Account information
+2022-05-06 10:14:46,684 Account list ['5006419901', '6001412503']

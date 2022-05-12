@@ -34,29 +34,26 @@ class Bankis(BankisBase):
 
     def test(self):
         item_code = '122630'
-        futures_code = '101S3000'
+        futures_code = '101S6000'
 
         # self.request_deposit_info()
-        # time.sleep(2)
-        self.request_futures_portfolio_info()
-        # time.sleep(2)
-        # self.request_deposit_info()
-        # time.sleep(1)
-        self.request_portfolio_info()
-        # self.request_futures_deposit_info()
-
-
-        # self.request_futures_portfolio_info()
-
         # self.request_portfolio_info()
+        # self.request_futures_deposit_info()
+        # self.request_futures_portfolio_info()
+        # self.request_order_history()
+
         # self.request_stock_price(item_code)
         # self.request_stock_price_day(item_code, '20220113')
+
         # self.request_stock_price_min(item_code)
         # self.request_futures_stock_price_min(futures_code)
         # self.request_kospi200_index()
+
         # self.request_real_data('SC_R', item_code)
         # self.request_real_data('SH_R', item_code)
         # self.request_real_data('FC_R', futures_code)
+
+        self.order(item_code, 12000, 1, '+매수', 'MARKET')
 
     def get_account_list(self):
         self.account_list = list()
@@ -87,6 +84,7 @@ class Bankis(BankisBase):
         self.set_single_data(5, '01')
         self.set_single_data(6, 'N')
         self.request_data(SERVICE_DEPOSIT_INFO)
+        self.event_loop.exec()
 
     def request_futures_deposit_info(self):
         password = self.get_encrypt_password(self.password)
@@ -96,8 +94,10 @@ class Bankis(BankisBase):
         self.set_single_data(3, '01')
         self.set_single_data(4, '1')
         self.request_data(SERVICE_FUTURES_DEPOSIT_INFO)
+        self.event_loop.exec()
 
     def request_portfolio_info(self):
+        self.portfolio.clear()
         self.set_single_data(0, self.account_number[:8])
         self.set_single_data(1, self.account_number[8:])
         self.set_single_data(2, self.password)
@@ -106,8 +106,10 @@ class Bankis(BankisBase):
         self.set_single_data(5, '02')
         self.set_single_data(6, 'N')
         self.request_data(SERVICE_PORTFOLIO_INFO)
+        self.event_loop.exec()
 
     def request_futures_portfolio_info(self):
+        self.portfolio.clear()
         password = self.get_encrypt_password(self.password)
         self.set_single_data(0, self.futures_account_number[:8])
         self.set_single_data(1, self.futures_account_number[8:])
@@ -115,10 +117,22 @@ class Bankis(BankisBase):
         self.set_single_data(3, '01')
         self.set_single_data(4, '1')
         self.request_data(SERVICE_FUTURES_PORTFOLIO_INFO)
+        self.event_loop.exec()
 
     def request_order_history(self):
-        # self.set_single_data(0, self.)
-        pass
+        self.order_history.clear()
+        today = datetime.now().strftime('%Y%m%d')
+        self.set_single_data(0, self.account_number[:8])
+        self.set_single_data(1, self.account_number[8:])
+        self.set_single_data(2, self.password)
+        self.set_single_data(3, today)
+        self.set_single_data(4, today)
+        self.set_single_data(5, '00')
+        self.set_single_data(6, '01')
+        self.set_single_data(8, '00')
+        self.set_single_data(11, '00')
+        self.request_data(SERVICE_ORDER_HISTORY)
+        self.event_loop.exec()
 
     def request_stock_price(self, item_code):
         self.set_single_data(0, STOCK_MARKET)
@@ -141,6 +155,7 @@ class Bankis(BankisBase):
         self.set_single_data(3, 'Y')
         self.set_single_data(4, 'Y')
         self.request_data(SERVICE_STOCK_PRICE_MINUTE)
+        self.event_loop.exec()
 
     def request_futures_stock_price_min(self, item_code):
         self.chart_item_code = item_code
@@ -153,6 +168,7 @@ class Bankis(BankisBase):
         self.set_single_data(2, 60)
         self.set_single_data(3, 'Y')
         self.request_data(SERVICE_FUTURES_STOCK_PRICE_MINUTE)
+        self.event_loop.exec()
 
     def request_kospi200_index(self):
         self.chart_item_code = KOSPI200_CODE
@@ -162,24 +178,45 @@ class Bankis(BankisBase):
         self.set_single_data(1, KOSPI200_CODE_BANKIS)
         self.set_single_data(2, 60)
         self.request_data(SERVICE_KOSPI200_MIN)
+        self.event_loop.exec()
 
-    def order(self, price, amount, item_code):
+    def order(self, item_code, price, amount, order_position, order_type, order_number=''):
+        price = 0 if order_type == 'MARKET' else price
+        self.order_position = order_position
+
+        if item_code[:3] == FUTURES_CODE:
+            pass
+            # order_position_code = FUTURES_ORDER_POSITION[order_position]
+            # trade_position = FUTURES_TRADE_POSITION[order_position]
+            # order_type_code = FUTURES_ORDER_TYPE[order_type]
+            # send_order = self.new_send_order_fo('order', self.screen_send_order, self.account_number)
+            # send_order(item_code, order_position_code, trade_position, order_type_code, amount, price, order_number)
+        else:
+            order_type_code = ORDER_TYPE[order_type]
+            if order_position == PURCHASE:
+                self.order_purchase(item_code, price, str(amount), order_type_code)
+            elif order_position == SELL:
+                self.order_sale(item_code, price, str(amount), order_type_code)
+
+    def order_purchase(self, item_code, price, amount, order_type_code):
         self.set_single_data(0, self.account_number[:8])
         self.set_single_data(1, self.account_number[8:])
-        self.set_single_data(2, '0000')
+        self.set_single_data(2, self.password)
         self.set_single_data(3, item_code)
-        self.set_single_data(4, '01')
-        # self.set_single_data(5, amount)
-        self.set_single_data(5, '2')
+        self.set_single_data(4, order_type_code)
+        self.set_single_data(5, amount)
         self.set_single_data(6, price)
-        self.request_data('SCABO')
+        self.request_data(SERVICE_ORDER_PURCHASE)
 
-        print(self.account_number[:8])
-        print(self.account_number[8:])
-
-        rq_id = self.get_send_rq_id()
-        self.requests[rq_id] = 'SCABO'
-        self.debug('SCABO', 'request ID', rq_id)
+    def order_sale(self, item_code, price, amount, order_type_code):
+        self.set_single_data(0, self.account_number[:8])
+        self.set_single_data(1, self.account_number[8:])
+        self.set_single_data(2, self.password)
+        self.set_single_data(3, item_code)
+        self.set_single_data(4, order_type_code)
+        self.set_single_data(5, amount)
+        self.set_single_data(6, price)
+        self.request_data(SERVICE_ORDER_SALE)
 
     def on_receive_data(self):
         rq_id = self.get_recv_rq_id()
@@ -198,6 +235,8 @@ class Bankis(BankisBase):
             self.get_futures_deposit_info(request)
         elif request == SERVICE_FUTURES_PORTFOLIO_INFO:
             self.get_futures_portfolio_info(request)
+        elif request == SERVICE_ORDER_HISTORY:
+            self.get_order_history(request)
         elif request == SERVICE_CURRENT_PRICE:
             self.get_stock_price(request)
         elif request == SERVICE_CURRENT_PRICE_DAY:
@@ -208,6 +247,8 @@ class Bankis(BankisBase):
             self.get_futures_stock_price_min(request)
         elif request == SERVICE_KOSPI200_MIN:
             self.get_kospi200_index(request)
+        elif request == SERVICE_ORDER_PURCHASE:
+            self.obtain_executed_order_info(request)
 
         del self.requests[rq_id]
 
@@ -254,25 +295,27 @@ class Bankis(BankisBase):
 
     def get_deposit_info(self, request):
         self.deposit = self.get_multi_data(1, 0, 0)
-        self.withdrawable_money = self.get_multi_data(1, 0, 0)
+        self.withdrawable_money = self.get_multi_data(1, 0, 2)
         self.orderable_money = self.get_multi_data(1, 0, 2)
 
         self.debug('deposit', self.deposit)
         self.debug('withdrawable', self.withdrawable_money)
         self.debug('orderable', self.orderable_money)
 
+        self.event_loop.exit()
+
     def get_futures_deposit_info(self, request):
         self.deposit = self.get_multi_data(1, 0, 3)
-        self.withdrawable_money = self.get_multi_data(1, 0, 0)
+        self.withdrawable_money = self.get_multi_data(1, 0, 26)
         self.orderable_money = self.get_multi_data(1, 0, 26)
 
         self.debug('deposit', self.deposit)
         self.debug('withdrawable', self.withdrawable_money)
         self.debug('orderable', self.orderable_money)
 
-    def get_portfolio_info(self, request):
-        self.portfolio.clear()
+        self.event_loop.exit()
 
+    def get_portfolio_info(self, request):
         number_of_record = self.get_multi_record_count(0)
         for record in range(number_of_record):
             get_data = self.new_get_multi_data(0, record)
@@ -323,9 +366,9 @@ class Bankis(BankisBase):
                 self.info('Portfolio information (No item found')
             self.trader.portfolio_acquired()
 
-    def get_futures_portfolio_info(self, request):
-        self.portfolio.clear()
+        self.event_loop.exit()
 
+    def get_futures_portfolio_info(self, request):
         number_of_record = self.get_multi_record_count(0)
         for record in range(number_of_record):
             get_data = self.new_get_multi_data(0, record)
@@ -375,6 +418,39 @@ class Bankis(BankisBase):
             else:
                 self.info('Portfolio information (Futures) (No item found')
             self.trader.portfolio_acquired()
+            self.event_loop.exit()
+
+    def get_order_history(self, request):
+        self.get_data(request)
+        number_of_order = self.get_multi_record_count(0)
+        for record in range(number_of_order):
+            get_data = self.new_get_multi_data(0, record)
+
+            order = Order()
+            order.item_code = get_data(7)
+            order.item_name = get_data(8)
+            order.executed_time = get_data(26)
+            order.order_amount = get_data(9)
+            order.executed_amount_sum = get_data(12)
+            order.open_amount = get_data(20)
+            order.order_number = get_data(2)
+            order.original_order_number = get_data(3)
+            order.order_price = get_data(10)
+            order.executed_price_avg = get_data(13)
+            order.order_position = self.render_position(get_data(6))
+            order.order_state = get_data(18)
+
+            self.order_history[order.order_number] = order
+            if order.open_amount != 0:
+                self.open_orders[order.order_number] = order
+
+        if self.has_more_next_data():
+            self.request_next_data(request)
+        else:
+            # self.trader.display_order_history()
+            # self.trader.display_open_orders()
+            self.info('Order history information')
+            self.event_loop.exit()
 
     def get_item_info(self):
         item_code = '005930'
@@ -407,10 +483,10 @@ class Bankis(BankisBase):
                 transaction_time = current_date + current_time
                 current_date = int(current_date)
 
-                # if current_date < today:
-                #     self.trader.process_past_chart_prices(item_code, chart)
-                #     self.event_loop.exit()
-                #     return
+                if current_date < today:
+                    self.trader.process_past_chart_prices(item_code, chart)
+                    self.event_loop.exit()
+                    return
 
                 open_price = int(get_data(3))
                 high_price = int(get_data(4))
@@ -471,11 +547,11 @@ class Bankis(BankisBase):
                 for i in range(field):
                     data = get_data(i)
                     print(i, data)
-
-
+                print('------------------------------')
 
                 # if current_date < today:
                 #     self.trader.process_past_chart_prices(item_code, chart)
+                #     self.debug('38383')
                 #     self.event_loop.exit()
                 #     return
 
@@ -489,3 +565,10 @@ class Bankis(BankisBase):
 
         if self.has_more_next_data():
             self.request_next_data(request)
+
+    def obtain_executed_order_info(self, request):
+        count = self.get_single_field_count()
+        self.debug(count)
+        for index in range(count):
+            a = self.get_single_data(index, 0)
+            self.debug(a)

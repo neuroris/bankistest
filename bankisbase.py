@@ -46,6 +46,9 @@ class BankisBase(QAxWidget, WookLog, WookUtil):
         # Variables
         self.password = '0000'
 
+        # For debug
+        self.order_position = ''
+
         # Fee and Tax
         self.futures_fee_ratio = 0.0000185
         self.etf_fee_ratio = 0.000146527
@@ -240,3 +243,9 @@ class BankisBase(QAxWidget, WookLog, WookUtil):
         elif item.item_name[:5] != 'KODEX':
             tax = round(item.evaluation_sum * self.tax_ratio)
         return tax
+
+    def render_position(self, position):
+        rendered_position = PURCHASE
+        if position == SELL_NAKED:
+            rendered_position = SELL
+        return rendered_position

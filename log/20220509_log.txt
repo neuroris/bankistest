@@ -1,0 +1,19 @@
+2022-05-09 09:56:03,713 Test initiated...
+2022-05-09 09:56:03,714 This connection is SIMULATION mode
+2022-05-09 09:56:03,714 Account information
+2022-05-09 09:56:03,714 Account list ['5006419901', '6001412503']
+2022-05-09 09:57:40,120 Test initiated...
+2022-05-09 09:57:40,120 This connection is SIMULATION mode
+2022-05-09 09:57:40,121 Account information
+2022-05-09 09:57:40,121 Account list ['5006419901', '6001412503']
+2022-05-09 09:57:58,273 Test initiated...
+2022-05-09 09:57:58,274 This connection is SIMULATION mode
+2022-05-09 09:57:58,274 Account information
+2022-05-09 09:57:58,274 Account list ['5006419901', '6001412503']
+2022-05-09 11:17:57,471 Test initiated...
+2022-05-09 11:17:57,471 This connection is SIMULATION mode
+2022-05-09 11:17:57,472 Account information
+2022-05-09 11:17:57,472 Account list ['5006419901', '6001412503']
+2022-05-09 11:17:57,532 ========== Data received (SCABO:3) ==========
+2022-05-09 11:17:57,532 Request message code: 40600000
+2022-05-09 11:17:57,532 Request message: 모의투자 매수주문이 완료 되었습니다. ()

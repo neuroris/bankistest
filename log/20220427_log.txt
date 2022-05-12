@@ -1,0 +1,14 @@
+2022-04-27 13:05:15,567 Test initiated...
+2022-04-27 13:05:15,567 This connection is SIMULATION mode
+2022-04-27 13:05:15,567 Account information
+2022-04-27 13:05:15,567 Account list ['5006419901', '6001412503']
+2022-04-27 13:05:15,609 ========== Data received (SCABO:3) ==========
+2022-04-27 13:05:15,609 Request message code: 41020000
+2022-04-27 13:05:15,609 Request message: 모의투자 주문수량(0)을 확인하세요 ()
+2022-04-27 13:09:14,364 Test initiated...
+2022-04-27 13:09:14,364 This connection is SIMULATION mode
+2022-04-27 13:09:14,364 Account information
+2022-04-27 13:09:14,364 Account list ['5006419901', '6001412503']
+2022-04-27 13:09:14,406 ========== Data received (SCABO:4) ==========
+2022-04-27 13:09:14,407 Request message code: 40600000
+2022-04-27 13:09:14,407 Request message: 모의투자 매수주문이 완료 되었습니다. ()

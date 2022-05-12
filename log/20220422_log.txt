@@ -1,0 +1,22 @@
+2022-04-22 11:48:43,211 Test initiated...
+2022-04-22 11:48:43,212 This connection is SIMULATION mode
+2022-04-22 11:48:43,212 Account information
+2022-04-22 11:48:43,212 Account list ['5006419901', '6001412503']
+2022-04-22 11:48:43,238 ========== Data received (PUP02100200:3) ==========
+2022-04-22 11:48:43,238 Request message code: MCA00000
+2022-04-22 11:48:43,238 Request message: 정상처리 되었습니다. ()
+2022-04-22 11:48:43,277 ========== Data received (PUP02100200:4) ==========
+2022-04-22 11:48:43,277 Request message code: MCA00000
+2022-04-22 11:48:43,277 Request message: 정상처리 되었습니다. ()
+2022-04-22 11:48:43,314 ========== Data received (PUP02100200:5) ==========
+2022-04-22 11:48:43,314 Request message code: MCA00000
+2022-04-22 11:48:43,314 Request message: 정상처리 되었습니다. ()
+2022-04-22 11:48:43,360 ========== Data received (PUP02100200:6) ==========
+2022-04-22 11:48:43,360 Request message code: MCA00000
+2022-04-22 11:48:43,360 Request message: 정상처리 되었습니다. ()
+2022-04-22 11:48:43,404 ========== Data received (PUP02100200:7) ==========
+2022-04-22 11:48:43,404 Request message code: MCA00000
+2022-04-22 11:48:43,404 Request message: 정상처리 되었습니다. ()
+2022-04-22 11:48:43,461 ========== Data received (PUP02100200:8) ==========
+2022-04-22 11:48:43,461 Request message code: MCA00000
+2022-04-22 11:48:43,461 Request message: 정상처리 되었습니다. ()

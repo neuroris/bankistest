@@ -78,9 +78,10 @@ class Trader(TraderBase):
         self.algorithm.initiate_order()
 
     def portfolio_acquired(self):
-        if self.opening:
-            self.opening = False
-            self.broker.settle_up()
+        pass
+        # if self.opening:
+        #     self.opening = False
+        #     self.broker.settle_up()
 
     def connect_broker(self):
         # if self.cb_auto_login.isChecked():
